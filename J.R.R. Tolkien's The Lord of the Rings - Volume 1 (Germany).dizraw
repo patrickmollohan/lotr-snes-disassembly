@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="101" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (Germany).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666291475" CurrentViewOffset="0">
+    <LogWriterSettings Format="%label:-22% %code:37%; [%pc%] [%bytes%] [%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
+    <Data RomMapMode="LoRom" RomSpeed="FastRom">
+      <Labels>
+        <sys:Item Key="8454116">
+          <Value exs:type="ns1:Label" Name="Native_COP" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8454118">
+          <Value exs:type="ns1:Label" Name="Native_BRK" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8454122">
+          <Value exs:type="ns1:Label" Name="Native_NMI" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8454132">
+          <Value exs:type="ns1:Label" Name="Native_IRQ" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8454142">
+          <Value exs:type="ns1:Label" Name="Emulation_RESET" Comment="" />
+        </sys:Item>
+      </Labels>
+      <RomBytes>
+version:200,compress_groupblocks,compress_table_1
+r 32704 U
+r 21 T
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+r 32 E
+r 1015808 U
+</RomBytes>
+    </Data>
+  </Project>
+</ProjectXmlSerializer-Root>
