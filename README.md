@@ -6,9 +6,9 @@ This project aims to fully reverse engineer J.R.R. Tolkien's The Lord of the Rin
 The game features support for the Super Multitap, allowing for a multiplayer experience with up to five people. The game also supports the Super NES Mouse, used for movement, interaction, and inventory management.
 
 ## Requirements
-* A copy of the ROM (see table below for ROM info)
-* The latest version of [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh/releases)
-* The latest version of a patched [bsnes-plus](https://github.com/DizTools/bsnes-plus/releases) for tracelog capturing (optional)
+* A copy of the ROM (see table below for ROM info).
+* The latest version of [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh/releases).
+* The latest version of a patched [bsnes-plus](https://github.com/DizTools/bsnes-plus/releases) for tracelog capturing (optional).
 
 ## ROM Info (Headerless)
 | Region  |   CRC32  |                   SHA-1                  |
@@ -17,7 +17,7 @@ The game features support for the Super Multitap, allowing for a multiplayer exp
 | Europe  | 247C17D3 | 5EE8E70B0D80821274CC8689C4DB22215B5AE52F |
 | Germany | 8B172B4E | D0A54A6E4E7C27FD6DA23AD53201679272F9AC04 |
 
-See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic guide on dumping your own ROM.
+See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on dumping your own ROM.
 
 ## Goals
 * Fully mark, label, and comment the USA, Europe, and Germany ROMs using DiztinGUIsh.
