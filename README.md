@@ -19,7 +19,7 @@ The game features support for the Super Multitap, allowing for a multiplayer exp
 
 ## Goals and Progress
 #### USA ROM Disassembly
-* Marking: 1.735% (18,191/1,048,576 bytes)
+* Marking: 1.747% (18,320/1,048,576 bytes)
 * Labelling: 0%
 * Commenting: 0%
 #### Europe ROM Disassembly
