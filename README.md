@@ -17,7 +17,15 @@ The game features support for the Super Multitap, allowing for a multiplayer exp
 | Europe  | 247C17D3 | 5EE8E70B0D80821274CC8689C4DB22215B5AE52F |
 | Germany | 8B172B4E | D0A54A6E4E7C27FD6DA23AD53201679272F9AC04 |
 
-## Goals and Progress
+## Goals
+* Fully mark, label, and comment the USA, Europe, and Germany ROMs using DiztinGUIsh.
+* Export the reverse engineered assembly code and remove any assets.
+* Create code to extract the assets from the user-provided ROMs.
+* Implement (optional) bugfixes, such as the fix for the [Moria password bug](https://cml-a.com/content/2021/04/06/lord-of-the-rings-snes-bugfix/).
+* Reimplement assembly code in C, much like [zelda3](https://github.com/snesrev/zelda3).
+* Add documentation for dumping your own cartridge.
+
+## Progress
 #### USA ROM Disassembly
 * Marking: 1.747% (18,320/1,048,576 bytes)
 * Labelling: 0%
@@ -32,5 +40,5 @@ The game features support for the Super Multitap, allowing for a multiplayer exp
 * Commenting: 0%
 
 ## Credits
-* [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh) - Used for disassembly
-* [bsnes-plus](https://github.com/DizTools/bsnes-plus) - Used for tracelog capturing and debugging
+* [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh) - Used for disassembly.
+* [bsnes-plus](https://github.com/DizTools/bsnes-plus) - Used for tracelog capturing and debugging.
