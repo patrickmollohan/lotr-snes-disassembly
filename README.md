@@ -23,7 +23,6 @@ The game features support for the Super Multitap, allowing for a multiplayer exp
 * Create code to extract the assets from the user-provided ROMs.
 * Implement (optional) bugfixes, such as the fix for the [Moria password bug](https://cml-a.com/content/2021/04/06/lord-of-the-rings-snes-bugfix/).
 * Reimplement assembly code in C, much like [zelda3](https://github.com/snesrev/zelda3).
-* Add documentation for dumping your own cartridge.
 
 ## Progress
 #### USA ROM Disassembly
