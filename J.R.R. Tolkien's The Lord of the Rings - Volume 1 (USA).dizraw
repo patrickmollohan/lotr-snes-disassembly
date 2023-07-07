@@ -1,8 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="101" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
-  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="230">
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="41801">
     <LogWriterSettings Format="%label:-22% %code:37%; [%pc%] [%bytes%] [%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
     <Data RomMapMode="LoRom" RomSpeed="FastRom">
+      <Comments AutomaticallyCaptureSubItems="false" HistoryLevels="50">
+        <sys:Item Key="8421376" Value="Reached upon initial loading" />
+        <sys:Item Key="8421419" Value="Reached upon initial loading" />
+        <sys:Item Key="8422574" Value="Reached upon initial loading" />
+        <sys:Item Key="8422589" Value="Reached upon initial loading" />
+        <sys:Item Key="8422597" Value="Reached upon initial loading" />
+        <sys:Item Key="8422613" Value="Reached upon initial loading" />
+        <sys:Item Key="8422661" Value="Reached upon initial loading" />
+        <sys:Item Key="8422693" Value="Reached upon initial loading" />
+        <sys:Item Key="8422707" Value="Reached upon initial loading" />
+        <sys:Item Key="8422724" Value="Reached upon initial loading" />
+        <sys:Item Key="8422925" Value="Reached upon initial loading" />
+        <sys:Item Key="8424004" Value="Reached upon initial loading" />
+        <sys:Item Key="8424011" Value="Reached upon initial loading" />
+        <sys:Item Key="8424034" Value="Reached upon initial loading" />
+        <sys:Item Key="8425026" Value="Reached upon initial loading" />
+        <sys:Item Key="8425119" Value="Reached upon initial loading" />
+        <sys:Item Key="8425229" Value="Reached upon initial loading" />
+        <sys:Item Key="8425232" Value="Reached upon initial loading" />
+        <sys:Item Key="8425243" Value="Reached upon initial loading" />
+        <sys:Item Key="8425255" Value="Reached upon initial loading" />
+        <sys:Item Key="8425293" Value="Reached upon initial loading" />
+        <sys:Item Key="8425420" Value="Reached upon initial loading" />
+        <sys:Item Key="8427438" Value="Reached upon initial loading" />
+        <sys:Item Key="8427474" Value="Reached upon initial loading" />
+        <sys:Item Key="8427477" Value="Reached upon initial loading" />
+        <sys:Item Key="8427889" Value="Reached upon initial loading" />
+        <sys:Item Key="8427937" Value="Reached upon initial loading" />
+        <sys:Item Key="8427962" Value="Reached upon initial loading" />
+        <sys:Item Key="8427981" Value="Reached upon initial loading" />
+        <sys:Item Key="8427992" Value="Reached upon initial loading" />
+        <sys:Item Key="8428022" Value="Reached upon initial loading" />
+        <sys:Item Key="8428027" Value="Reached upon initial loading" />
+        <sys:Item Key="8428044" Value="Reached upon initial loading" />
+        <sys:Item Key="8428048" Value="Reached upon initial loading" />
+        <sys:Item Key="8428065" Value="Reached upon initial loading" />
+        <sys:Item Key="8428082" Value="Reached upon initial loading" />
+        <sys:Item Key="8428096" Value="Reached upon initial loading" />
+        <sys:Item Key="8428117" Value="Reached upon initial loading" />
+        <sys:Item Key="8428142" Value="Reached upon initial loading" />
+        <sys:Item Key="8428163" Value="Reached upon initial loading" />
+        <sys:Item Key="8428180" Value="Reached upon initial loading" />
+        <sys:Item Key="8428199" Value="Reached upon initial loading" />
+        <sys:Item Key="8428210" Value="Reached upon initial loading" />
+        <sys:Item Key="8428220" Value="Reached upon initial loading" />
+        <sys:Item Key="8486914" Value="Reached upon initial loading" />
+        <sys:Item Key="8487904" Value="Reached upon initial loading" />
+        <sys:Item Key="8487921" Value="Reached upon initial loading" />
+        <sys:Item Key="8487905" Value="Reached upon initial loading" />
+        <sys:Item Key="8487906" Value="Reached upon initial loading" />
+        <sys:Item Key="8487908" Value="Reached upon initial loading" />
+        <sys:Item Key="8487909" Value="Reached upon initial loading" />
+        <sys:Item Key="8487910" Value="Reached upon initial loading" />
+        <sys:Item Key="8487913" Value="Reached upon initial loading" />
+        <sys:Item Key="8487914" Value="Reached upon initial loading" />
+        <sys:Item Key="8487915" Value="Reached upon initial loading" />
+        <sys:Item Key="8487918" Value="Reached upon initial loading" />
+        <sys:Item Key="8487988" Value="Reached upon initial loading" />
+        <sys:Item Key="8488004" Value="Reached upon initial loading" />
+        <sys:Item Key="8488041" Value="Reached upon initial loading" />
+        <sys:Item Key="8488044" Value="Reached upon initial loading" />
+        <sys:Item Key="8488060" Value="Reached upon initial loading" />
+        <sys:Item Key="8488078" Value="Reached upon initial loading" />
+        <sys:Item Key="8488081" Value="Reached upon initial loading" />
+        <sys:Item Key="8488102" Value="Reached upon initial loading" />
+        <sys:Item Key="8488118" Value="Reached upon initial loading" />
+        <sys:Item Key="8488134" Value="Reached upon initial loading" />
+        <sys:Item Key="8488163" Value="Reached upon initial loading" />
+        <sys:Item Key="8488183" Value="Reached upon initial loading" />
+        <sys:Item Key="8488203" Value="Reached upon initial loading" />
+        <sys:Item Key="8488229" Value="Reached upon initial loading" />
+        <sys:Item Key="8490539" Value="Reached upon initial loading" />
+        <sys:Item Key="8490556" Value="Reached upon initial loading" />
+        <sys:Item Key="8490599" Value="Reached upon initial loading" />
+        <sys:Item Key="8490605" Value="Reached upon initial loading" />
+        <sys:Item Key="8490630" Value="Reached upon initial loading" />
+        <sys:Item Key="8490645" Value="Reached upon initial loading" />
+        <sys:Item Key="8490658" Value="Reached upon initial loading" />
+        <sys:Item Key="8490691" Value="Reached upon initial loading" />
+        <sys:Item Key="8490699" Value="Reached upon initial loading" />
+        <sys:Item Key="8490723" Value="Reached upon initial loading" />
+        <sys:Item Key="8495736" Value="Reached upon initial loading" />
+        <sys:Item Key="8495742" Value="Reached upon initial loading" />
+        <sys:Item Key="8495818" Value="Reached upon initial loading" />
+        <sys:Item Key="8495930" Value="Reached upon initial loading" />
+        <sys:Item Key="8495988" Value="Reached upon initial loading" />
+      </Comments>
       <Labels>
         <sys:Item Key="8454116">
           <Value exs:type="ns1:Label" Name="Native_COP" Comment="" />
