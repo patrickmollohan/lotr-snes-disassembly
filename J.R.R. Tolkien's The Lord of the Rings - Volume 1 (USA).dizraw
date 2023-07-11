@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="101" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
-  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="41801">
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="33080">
     <LogWriterSettings Format="%label:-22% %code:37%; [%pc%] [%bytes%] [%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
     <Data RomMapMode="LoRom" RomSpeed="FastRom">
       <Comments AutomaticallyCaptureSubItems="false" HistoryLevels="50">
@@ -89,6 +89,365 @@
         <sys:Item Key="8495818" Value="Reached upon initial loading" />
         <sys:Item Key="8495930" Value="Reached upon initial loading" />
         <sys:Item Key="8495988" Value="Reached upon initial loading" />
+        <sys:Item Key="8421452" Value="Reached at copyright screen" />
+        <sys:Item Key="8421455" Value="Reached at copyright screen" />
+        <sys:Item Key="8421458" Value="Reached at copyright screen" />
+        <sys:Item Key="8421461" Value="Reached at copyright screen" />
+        <sys:Item Key="8421464" Value="Reached at copyright screen" />
+        <sys:Item Key="8421467" Value="Reached at copyright screen" />
+        <sys:Item Key="8421470" Value="Reached at copyright screen" />
+        <sys:Item Key="8421497" Value="Reached at copyright screen" />
+        <sys:Item Key="8421571" Value="Reached at copyright screen" />
+        <sys:Item Key="8421607" Value="Reached at copyright screen" />
+        <sys:Item Key="8421614" Value="Reached at copyright screen" />
+        <sys:Item Key="8421617" Value="Reached at copyright screen" />
+        <sys:Item Key="8421663" Value="Reached at copyright screen" />
+        <sys:Item Key="8421684" Value="Reached at copyright screen" />
+        <sys:Item Key="8421830" Value="Reached at copyright screen" />
+        <sys:Item Key="8421877" Value="Reached at copyright screen" />
+        <sys:Item Key="8422051" Value="Reached at copyright screen" />
+        <sys:Item Key="8422067" Value="Reached at copyright screen" />
+        <sys:Item Key="8422251" Value="Reached at copyright screen" />
+        <sys:Item Key="8422298" Value="Reached at copyright screen" />
+        <sys:Item Key="8422330" Value="Reached at copyright screen" />
+        <sys:Item Key="8422352" Value="Reached at copyright screen" />
+        <sys:Item Key="8422363" Value="Reached at copyright screen" />
+        <sys:Item Key="8422395" Value="Reached at copyright screen" />
+        <sys:Item Key="8422396" Value="Reached at copyright screen" />
+        <sys:Item Key="8422411" Value="Reached at copyright screen" />
+        <sys:Item Key="8422424" Value="Reached at copyright screen" />
+        <sys:Item Key="8422437" Value="Reached at copyright screen" />
+        <sys:Item Key="8422450" Value="Reached at copyright screen" />
+        <sys:Item Key="8422451" Value="Reached at copyright screen" />
+        <sys:Item Key="8422466" Value="Reached at copyright screen" />
+        <sys:Item Key="8422479" Value="Reached at copyright screen" />
+        <sys:Item Key="8422492" Value="Reached at copyright screen" />
+        <sys:Item Key="8422505" Value="Reached at copyright screen" />
+        <sys:Item Key="8422506" Value="Reached at copyright screen" />
+        <sys:Item Key="8422747" Value="Reached at copyright screen" />
+        <sys:Item Key="8422753" Value="Reached at copyright screen" />
+        <sys:Item Key="8422763" Value="Reached at copyright screen" />
+        <sys:Item Key="8422773" Value="Reached at copyright screen" />
+        <sys:Item Key="8422790" Value="Reached at copyright screen" />
+        <sys:Item Key="8422801" Value="Reached at copyright screen" />
+        <sys:Item Key="8422816" Value="Reached at copyright screen" />
+        <sys:Item Key="8422956" Value="Reached at copyright screen" />
+        <sys:Item Key="8423057" Value="Reached at copyright screen" />
+        <sys:Item Key="8423061" Value="Reached at copyright screen" />
+        <sys:Item Key="8423143" Value="Reached at copyright screen" />
+        <sys:Item Key="8423162" Value="Reached at copyright screen" />
+        <sys:Item Key="8423181" Value="Reached at copyright screen" />
+        <sys:Item Key="8423194" Value="Reached at copyright screen" />
+        <sys:Item Key="8423237" Value="Reached at copyright screen" />
+        <sys:Item Key="8423254" Value="Reached at copyright screen" />
+        <sys:Item Key="8423291" Value="Reached at copyright screen" />
+        <sys:Item Key="8423335" Value="Reached at copyright screen" />
+        <sys:Item Key="8423384" Value="Reached at copyright screen" />
+        <sys:Item Key="8423385" Value="Reached at copyright screen" />
+        <sys:Item Key="8423408" Value="Reached at copyright screen" />
+        <sys:Item Key="8423427" Value="Reached at copyright screen" />
+        <sys:Item Key="8423447" Value="Reached at copyright screen" />
+        <sys:Item Key="8423620" Value="Reached at copyright screen" />
+        <sys:Item Key="8423625" Value="Reached at copyright screen" />
+        <sys:Item Key="8423636" Value="Reached at copyright screen" />
+        <sys:Item Key="8423641" Value="Reached at copyright screen" />
+        <sys:Item Key="8423661" Value="Reached at copyright screen" />
+        <sys:Item Key="8423786" Value="Reached at copyright screen" />
+        <sys:Item Key="8423809" Value="Reached at copyright screen" />
+        <sys:Item Key="8423858" Value="Reached at copyright screen" />
+        <sys:Item Key="8423951" Value="Reached at copyright screen" />
+        <sys:Item Key="8423954" Value="Reached at copyright screen" />
+        <sys:Item Key="8423963" Value="Reached at copyright screen" />
+        <sys:Item Key="8423966" Value="Reached at copyright screen" />
+        <sys:Item Key="8424043" Value="Reached at copyright screen" />
+        <sys:Item Key="8424128" Value="Reached at copyright screen" />
+        <sys:Item Key="8424133" Value="Reached at copyright screen" />
+        <sys:Item Key="8424577" Value="Reached at copyright screen" />
+        <sys:Item Key="8424616" Value="Reached at copyright screen" />
+        <sys:Item Key="8424642" Value="Reached at copyright screen" />
+        <sys:Item Key="8424664" Value="Reached at copyright screen" />
+        <sys:Item Key="8424890" Value="Reached at copyright screen" />
+        <sys:Item Key="8424904" Value="Reached at copyright screen" />
+        <sys:Item Key="8424919" Value="Reached at copyright screen" />
+        <sys:Item Key="8424932" Value="Reached at copyright screen" />
+        <sys:Item Key="8425001" Value="Reached at copyright screen" />
+        <sys:Item Key="8425002" Value="Reached at copyright screen" />
+        <sys:Item Key="8425005" Value="Reached at copyright screen" />
+        <sys:Item Key="8425013" Value="Reached at copyright screen" />
+        <sys:Item Key="8425219" Value="Reached at copyright screen" />
+        <sys:Item Key="8425222" Value="Reached at copyright screen" />
+        <sys:Item Key="8425225" Value="Reached at copyright screen" />
+        <sys:Item Key="8425228" Value="Reached at copyright screen" />
+        <sys:Item Key="8426443" Value="Reached at copyright screen" />
+        <sys:Item Key="8428087" Value="Reached at copyright screen" />
+        <sys:Item Key="8428090" Value="Reached at copyright screen" />
+        <sys:Item Key="8428092" Value="Reached at copyright screen" />
+        <sys:Item Key="8428094" Value="Reached at copyright screen" />
+        <sys:Item Key="8428213" Value="Reached at copyright screen" />
+        <sys:Item Key="8428216" Value="Reached at copyright screen" />
+        <sys:Item Key="8428218" Value="Reached at copyright screen" />
+        <sys:Item Key="8428691" Value="Reached at copyright screen" />
+        <sys:Item Key="8428732" Value="Reached at copyright screen" />
+        <sys:Item Key="8428784" Value="Reached at copyright screen" />
+        <sys:Item Key="8428861" Value="Reached at copyright screen" />
+        <sys:Item Key="8428868" Value="Reached at copyright screen" />
+        <sys:Item Key="8428875" Value="Reached at copyright screen" />
+        <sys:Item Key="8428883" Value="Reached at copyright screen" />
+        <sys:Item Key="8428894" Value="Reached at copyright screen" />
+        <sys:Item Key="8428905" Value="Reached at copyright screen" />
+        <sys:Item Key="8428916" Value="Reached at copyright screen" />
+        <sys:Item Key="8428927" Value="Reached at copyright screen" />
+        <sys:Item Key="8428938" Value="Reached at copyright screen" />
+        <sys:Item Key="8428943" Value="Reached at copyright screen" />
+        <sys:Item Key="8429150" Value="Reached at copyright screen" />
+        <sys:Item Key="8429174" Value="Reached at copyright screen" />
+        <sys:Item Key="8429192" Value="Reached at copyright screen" />
+        <sys:Item Key="8429220" Value="Reached at copyright screen" />
+        <sys:Item Key="8429248" Value="Reached at copyright screen" />
+        <sys:Item Key="8429435" Value="Reached at copyright screen" />
+        <sys:Item Key="8429450" Value="Reached at copyright screen" />
+        <sys:Item Key="8429798" Value="Reached at copyright screen" />
+        <sys:Item Key="8429812" Value="Reached at copyright screen" />
+        <sys:Item Key="8429853" Value="Reached at copyright screen" />
+        <sys:Item Key="8429947" Value="Reached at copyright screen" />
+        <sys:Item Key="8429961" Value="Reached at copyright screen" />
+        <sys:Item Key="8429989" Value="Reached at copyright screen" />
+        <sys:Item Key="8430014" Value="Reached at copyright screen" />
+        <sys:Item Key="8430029" Value="Reached at copyright screen" />
+        <sys:Item Key="8430033" Value="Reached at copyright screen" />
+        <sys:Item Key="8430052" Value="Reached at copyright screen" />
+        <sys:Item Key="8430259" Value="Reached at copyright screen" />
+        <sys:Item Key="8430350" Value="Reached at copyright screen" />
+        <sys:Item Key="8430436" Value="Reached at copyright screen" />
+        <sys:Item Key="8430692" Value="Reached at copyright screen" />
+        <sys:Item Key="8430723" Value="Reached at copyright screen" />
+        <sys:Item Key="8430754" Value="Reached at copyright screen" />
+        <sys:Item Key="8430762" Value="Reached at copyright screen" />
+        <sys:Item Key="8430837" Value="Reached at copyright screen" />
+        <sys:Item Key="8432287" Value="Reached at copyright screen" />
+        <sys:Item Key="8432330" Value="Reached at copyright screen" />
+        <sys:Item Key="8432361" Value="Reached at copyright screen" />
+        <sys:Item Key="8432369" Value="Reached at copyright screen" />
+        <sys:Item Key="8432403" Value="Reached at copyright screen" />
+        <sys:Item Key="8432432" Value="Reached at copyright screen" />
+        <sys:Item Key="8432444" Value="Reached at copyright screen" />
+        <sys:Item Key="8433616" Value="Reached at copyright screen" />
+        <sys:Item Key="8433628" Value="Reached at copyright screen" />
+        <sys:Item Key="8433662" Value="Reached at copyright screen" />
+        <sys:Item Key="8433670" Value="Reached at copyright screen" />
+        <sys:Item Key="8433694" Value="Reached at copyright screen" />
+        <sys:Item Key="8433733" Value="Reached at copyright screen" />
+        <sys:Item Key="8433741" Value="Reached at copyright screen" />
+        <sys:Item Key="8433772" Value="Reached at copyright screen" />
+        <sys:Item Key="8433773" Value="Reached at copyright screen" />
+        <sys:Item Key="8433774" Value="Reached at copyright screen" />
+        <sys:Item Key="8433775" Value="Reached at copyright screen" />
+        <sys:Item Key="8433777" Value="Reached at copyright screen" />
+        <sys:Item Key="8433779" Value="Reached at copyright screen" />
+        <sys:Item Key="8433782" Value="Reached at copyright screen" />
+        <sys:Item Key="8433794" Value="Reached at copyright screen" />
+        <sys:Item Key="8433801" Value="Reached at copyright screen" />
+        <sys:Item Key="8433796" Value="Reached at copyright screen" />
+        <sys:Item Key="8433798" Value="Reached at copyright screen" />
+        <sys:Item Key="8433931" Value="Reached at copyright screen" />
+        <sys:Item Key="8433932" Value="Reached at copyright screen" />
+        <sys:Item Key="8433933" Value="Reached at copyright screen" />
+        <sys:Item Key="8433936" Value="Reached at copyright screen" />
+        <sys:Item Key="8433938" Value="Reached at copyright screen" />
+        <sys:Item Key="8433945" Value="Reached at copyright screen" />
+        <sys:Item Key="8433939" Value="Reached at copyright screen" />
+        <sys:Item Key="8433941" Value="Reached at copyright screen" />
+        <sys:Item Key="8433942" Value="Reached at copyright screen" />
+        <sys:Item Key="8433943" Value="Reached at copyright screen" />
+        <sys:Item Key="8433947" Value="Reached at copyright screen" />
+        <sys:Item Key="8433948" Value="Reached at copyright screen" />
+        <sys:Item Key="8433949" Value="Reached at copyright screen" />
+        <sys:Item Key="8433950" Value="Reached at copyright screen" />
+        <sys:Item Key="8433951" Value="Reached at copyright screen" />
+        <sys:Item Key="8433953" Value="Reached at copyright screen" />
+        <sys:Item Key="8433955" Value="Reached at copyright screen" />
+        <sys:Item Key="8433956" Value="Reached at copyright screen" />
+        <sys:Item Key="8433957" Value="Reached at copyright screen" />
+        <sys:Item Key="8433959" Value="Reached at copyright screen" />
+        <sys:Item Key="8434180" Value="Reached at copyright screen" />
+        <sys:Item Key="8434178" Value="Reached at copyright screen" />
+        <sys:Item Key="8434183" Value="Reached at copyright screen" />
+        <sys:Item Key="8434185" Value="Reached at copyright screen" />
+        <sys:Item Key="8434188" Value="Reached at copyright screen" />
+        <sys:Item Key="8434189" Value="Reached at copyright screen" />
+        <sys:Item Key="8435601" Value="Reached at copyright screen" />
+        <sys:Item Key="8435591" Value="Reached at copyright screen" />
+        <sys:Item Key="8435594" Value="Reached at copyright screen" />
+        <sys:Item Key="8435596" Value="Reached at copyright screen" />
+        <sys:Item Key="8435903" Value="Reached at copyright screen" />
+        <sys:Item Key="8435906" Value="Reached at copyright screen" />
+        <sys:Item Key="8435908" Value="Reached at copyright screen" />
+        <sys:Item Key="8435942" Value="Reached at copyright screen" />
+        <sys:Item Key="8435944" Value="Reached at copyright screen" />
+        <sys:Item Key="8435945" Value="Reached at copyright screen" />
+        <sys:Item Key="8435948" Value="Reached at copyright screen" />
+        <sys:Item Key="8435949" Value="Reached at copyright screen" />
+        <sys:Item Key="8435956" Value="Reached at copyright screen" />
+        <sys:Item Key="8435953" Value="Reached at copyright screen" />
+        <sys:Item Key="8435951" Value="Reached at copyright screen" />
+        <sys:Item Key="8435958" Value="Reached at copyright screen" />
+        <sys:Item Key="8437963" Value="Reached at copyright screen" />
+        <sys:Item Key="8437983" Value="Reached at copyright screen" />
+        <sys:Item Key="8438139" Value="Reached at copyright screen" />
+        <sys:Item Key="8438500" Value="Reached at copyright screen" />
+        <sys:Item Key="8438505" Value="Reached at copyright screen" />
+        <sys:Item Key="8439849" Value="Reached at copyright screen" />
+        <sys:Item Key="8439862" Value="Reached at copyright screen" />
+        <sys:Item Key="8439882" Value="Reached at copyright screen" />
+        <sys:Item Key="8439913" Value="Reached at copyright screen" />
+        <sys:Item Key="8439938" Value="Reached at copyright screen" />
+        <sys:Item Key="8440000" Value="Reached at copyright screen" />
+        <sys:Item Key="8440025" Value="Reached at copyright screen" />
+        <sys:Item Key="8440063" Value="Reached at copyright screen" />
+        <sys:Item Key="8440424" Value="Reached at copyright screen" />
+        <sys:Item Key="8440459" Value="Reached at copyright screen" />
+        <sys:Item Key="8440465" Value="Reached at copyright screen" />
+        <sys:Item Key="8440471" Value="Reached at copyright screen" />
+        <sys:Item Key="8440477" Value="Reached at copyright screen" />
+        <sys:Item Key="8440502" Value="Reached at copyright screen" />
+        <sys:Item Key="8440503" Value="Reached at copyright screen" />
+        <sys:Item Key="8440876" Value="Reached at copyright screen" />
+        <sys:Item Key="8440888" Value="Reached at copyright screen" />
+        <sys:Item Key="8440908" Value="Reached at copyright screen" />
+        <sys:Item Key="8440919" Value="Reached at copyright screen" />
+        <sys:Item Key="8440981" Value="Reached at copyright screen" />
+        <sys:Item Key="8441691" Value="Reached at copyright screen" />
+        <sys:Item Key="8442343" Value="Reached at copyright screen" />
+        <sys:Item Key="8442405" Value="Reached at copyright screen" />
+        <sys:Item Key="8442411" Value="Reached at copyright screen" />
+        <sys:Item Key="8442418" Value="Reached at copyright screen" />
+        <sys:Item Key="8442549" Value="Reached at copyright screen" />
+        <sys:Item Key="8442554" Value="Reached at copyright screen" />
+        <sys:Item Key="8442559" Value="Reached at copyright screen" />
+        <sys:Item Key="8442562" Value="Reached at copyright screen" />
+        <sys:Item Key="8442567" Value="Reached at copyright screen" />
+        <sys:Item Key="8442575" Value="Reached at copyright screen" />
+        <sys:Item Key="8442610" Value="Reached at copyright screen" />
+        <sys:Item Key="8442637" Value="Reached at copyright screen" />
+        <sys:Item Key="8442680" Value="Reached at copyright screen" />
+        <sys:Item Key="8442687" Value="Reached at copyright screen" />
+        <sys:Item Key="8442693" Value="Reached at copyright screen" />
+        <sys:Item Key="8442708" Value="Reached at copyright screen" />
+        <sys:Item Key="8442709" Value="Reached at copyright screen" />
+        <sys:Item Key="8442717" Value="Reached at copyright screen" />
+        <sys:Item Key="8442729" Value="Reached at copyright screen" />
+        <sys:Item Key="8442738" Value="Reached at copyright screen" />
+        <sys:Item Key="8442752" Value="Reached at copyright screen" />
+        <sys:Item Key="8442786" Value="Reached at copyright screen" />
+        <sys:Item Key="8442856" Value="Reached at copyright screen" />
+        <sys:Item Key="8442857" Value="Reached at copyright screen" />
+        <sys:Item Key="8442960" Value="Reached at copyright screen" />
+        <sys:Item Key="8443011" Value="Reached at copyright screen" />
+        <sys:Item Key="8443066" Value="Reached at copyright screen" />
+        <sys:Item Key="8443132" Value="Reached at copyright screen" />
+        <sys:Item Key="8443133" Value="Reached at copyright screen" />
+        <sys:Item Key="8443202" Value="Reached at copyright screen" />
+        <sys:Item Key="8444631" Value="Reached at copyright screen" />
+        <sys:Item Key="8444637" Value="Reached at copyright screen" />
+        <sys:Item Key="8444655" Value="Reached at copyright screen" />
+        <sys:Item Key="8444673" Value="Reached at copyright screen" />
+        <sys:Item Key="8444704" Value="Reached at copyright screen" />
+        <sys:Item Key="8444738" Value="Reached at copyright screen" />
+        <sys:Item Key="8444761" Value="Reached at copyright screen" />
+        <sys:Item Key="8444788" Value="Reached at copyright screen" />
+        <sys:Item Key="8445016" Value="Reached at copyright screen" />
+        <sys:Item Key="8445025" Value="Reached at copyright screen" />
+        <sys:Item Key="8445036" Value="Reached at copyright screen" />
+        <sys:Item Key="8445045" Value="Reached at copyright screen" />
+        <sys:Item Key="8445056" Value="Reached at copyright screen" />
+        <sys:Item Key="8445064" Value="Reached at copyright screen" />
+        <sys:Item Key="8445113" Value="Reached at copyright screen" />
+        <sys:Item Key="8445115" Value="Reached at copyright screen" />
+        <sys:Item Key="8448223" Value="Reached at copyright screen" />
+        <sys:Item Key="8448262" Value="Reached at copyright screen" />
+        <sys:Item Key="8448263" Value="Reached at copyright screen" />
+        <sys:Item Key="8448279" Value="Reached at copyright screen" />
+        <sys:Item Key="8448457" Value="Reached at copyright screen" />
+        <sys:Item Key="8448483" Value="Reached at copyright screen" />
+        <sys:Item Key="8449108" Value="Reached at copyright screen" />
+        <sys:Item Key="8449128" Value="Reached at copyright screen" />
+        <sys:Item Key="8450429" Value="Reached at copyright screen" />
+        <sys:Item Key="8450482" Value="Reached at copyright screen" />
+        <sys:Item Key="8450498" Value="Reached at copyright screen" />
+        <sys:Item Key="8450534" Value="Reached at copyright screen" />
+        <sys:Item Key="8451291" Value="Reached at copyright screen" />
+        <sys:Item Key="8451332" Value="Reached at copyright screen" />
+        <sys:Item Key="8451703" Value="Reached at copyright screen" />
+        <sys:Item Key="8451706" Value="Reached at copyright screen" />
+        <sys:Item Key="8451709" Value="Reached at copyright screen" />
+        <sys:Item Key="8451712" Value="Reached at copyright screen" />
+        <sys:Item Key="8451715" Value="Reached at copyright screen" />
+        <sys:Item Key="8451718" Value="Reached at copyright screen" />
+        <sys:Item Key="8451721" Value="Reached at copyright screen" />
+        <sys:Item Key="8451752" Value="Reached at copyright screen" />
+        <sys:Item Key="8451784" Value="Reached at copyright screen" />
+        <sys:Item Key="8451808" Value="Reached at copyright screen" />
+        <sys:Item Key="8451811" Value="Reached at copyright screen" />
+        <sys:Item Key="8451837" Value="Reached at copyright screen" />
+        <sys:Item Key="8451849" Value="Reached at copyright screen" />
+        <sys:Item Key="8451854" Value="Reached at copyright screen" />
+        <sys:Item Key="8452081" Value="Reached at copyright screen" />
+        <sys:Item Key="8452634" Value="Reached at copyright screen" />
+        <sys:Item Key="8453028" Value="Reached at copyright screen" />
+        <sys:Item Key="8453031" Value="Reached at copyright screen" />
+        <sys:Item Key="8453112" Value="Reached at copyright screen" />
+        <sys:Item Key="8453251" Value="Reached at copyright screen" />
+        <sys:Item Key="8453260" Value="Reached at copyright screen" />
+        <sys:Item Key="8453277" Value="Reached at copyright screen" />
+        <sys:Item Key="8453301" Value="Reached at copyright screen" />
+        <sys:Item Key="8453339" Value="Reached at copyright screen" />
+        <sys:Item Key="8453361" Value="Reached at copyright screen" />
+        <sys:Item Key="8453437" Value="Reached at copyright screen" />
+        <sys:Item Key="8453462" Value="Reached at copyright screen" />
+        <sys:Item Key="8453469" Value="Reached at copyright screen" />
+        <sys:Item Key="8453540" Value="Reached at copyright screen" />
+        <sys:Item Key="8453645" Value="Reached at copyright screen" />
+        <sys:Item Key="8453664" Value="Reached at copyright screen" />
+        <sys:Item Key="8453791" Value="Reached at copyright screen" />
+        <sys:Item Key="8453820" Value="Reached at copyright screen" />
+        <sys:Item Key="8453912" Value="Reached at copyright screen" />
+        <sys:Item Key="8453928" Value="Reached at copyright screen" />
+        <sys:Item Key="8453942" Value="Reached at copyright screen" />
+        <sys:Item Key="8486912" Value="Reached at copyright screen" />
+        <sys:Item Key="8486989" Value="Reached at copyright screen" />
+        <sys:Item Key="8487029" Value="Reached at copyright screen" />
+        <sys:Item Key="8487061" Value="Reached at copyright screen" />
+        <sys:Item Key="8487077" Value="Reached at copyright screen" />
+        <sys:Item Key="8487773" Value="Reached at copyright screen" />
+        <sys:Item Key="8487795" Value="Reached at copyright screen" />
+        <sys:Item Key="8487892" Value="Reached at copyright screen" />
+        <sys:Item Key="8489819" Value="Reached at copyright screen" />
+        <sys:Item Key="8489957" Value="Reached at copyright screen" />
+        <sys:Item Key="8489968" Value="Reached at copyright screen" />
+        <sys:Item Key="8490129" Value="Reached at copyright screen" />
+        <sys:Item Key="8490152" Value="Reached at copyright screen" />
+        <sys:Item Key="8490322" Value="Reached at copyright screen" />
+        <sys:Item Key="8490342" Value="Reached at copyright screen" />
+        <sys:Item Key="8490360" Value="Reached at copyright screen" />
+        <sys:Item Key="8495991" Value="Reached at copyright screen" />
+        <sys:Item Key="8496121" Value="Reached at copyright screen" />
+        <sys:Item Key="8496153" Value="Reached at copyright screen" />
+        <sys:Item Key="8496180" Value="Reached at copyright screen" />
+        <sys:Item Key="8496241" Value="Reached at copyright screen" />
+        <sys:Item Key="8504564" Value="Reached at copyright screen" />
+        <sys:Item Key="8504540" Value="Reached at copyright screen" />
+        <sys:Item Key="8504543" Value="Reached at copyright screen" />
+        <sys:Item Key="8504544" Value="Reached at copyright screen" />
+        <sys:Item Key="8504545" Value="Reached at copyright screen" />
+        <sys:Item Key="8504549" Value="Reached at copyright screen" />
+        <sys:Item Key="8504550" Value="Reached at copyright screen" />
+        <sys:Item Key="8504553" Value="Reached at copyright screen" />
+        <sys:Item Key="8504555" Value="Reached at copyright screen" />
+        <sys:Item Key="8504558" Value="Reached at copyright screen" />
+        <sys:Item Key="8504560" Value="Reached at copyright screen" />
+        <sys:Item Key="8504562" Value="Reached at copyright screen" />
+        <sys:Item Key="8504572" Value="Reached at copyright screen" />
+        <sys:Item Key="8504581" Value="Reached at copyright screen" />
       </Comments>
       <Labels>
         <sys:Item Key="8454116">
@@ -105,6 +464,27 @@
         </sys:Item>
         <sys:Item Key="8454142">
           <Value exs:type="ns1:Label" Name="Emulation_RESET" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8454080">
+          <Value exs:type="ns1:Label" Name="Game_Title" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453363">
+          <Value exs:type="ns1:Label" Name="End_Multi5_Con_Text" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453222">
+          <Value exs:type="ns1:Label" Name="Start_Multi5_Con_Text" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453166">
+          <Value exs:type="ns1:Label" Name="End_Multi5_BIOS_Text" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453008">
+          <Value exs:type="ns1:Label" Name="Start_Multi5_BIOS_Text" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8516609">
+          <Value exs:type="ns1:Label" Name="French_Credits" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8517580">
+          <Value exs:type="ns1:Label" Name="French_Instructions" Comment="" />
         </sys:Item>
       </Labels>
       <RomBytes>
@@ -14282,7 +14662,8 @@ r 27 U
 .08
 .08
 +08
-r 19 U
+TC
+r 18 T
 +08
 +08
 .08
@@ -14357,7 +14738,8 @@ U
 .D8
 .D8
 +D8
-r 199 U
+r 145 U
+r 54 T
 +08
 .08
 +08
@@ -14385,7 +14767,8 @@ r 536 U
 +08
 .08
 +08
-r 385 U
+r 365 U
+r 20 T
 +08
 +08
 .08
@@ -14524,7 +14907,7 @@ r 385 U
 .D8
 +08
 +08
-r 85 U
+r 85 T
 +08
 +08
 .08
@@ -14612,7 +14995,7 @@ r 12 U
 r 15 U
 +D8
 +08
-r 74 U
+r 74 T
 +08
 .08
 +08
@@ -14884,7 +15267,7 @@ U
 U
 U
 +08
-r 137 U
+r 137 X
 r 21 T
 A
 A
@@ -18790,7 +19173,322 @@ r 47 U
 .081
 .081
 +081
-r 996903 U
+r 10792 U
+A
+A
+A
+r 18 T
+A
+r 25 T
+A
+A
+A
+r 25 T
+A
+r 24 T
+A
+r 23 T
+A
+r 22 T
+A
+r 24 T
+A
+A
+A
+r 26 T
+A
+r 22 T
+A
+r 27 T
+A
+r 26 T
+A
+A
+A
+r 20 T
+A
+r 21 T
+A
+r 20 T
+A
+A
+A
+r 17 T
+A
+r 27 T
+A
+A
+r 20 T
+A
+r 18 T
+A
+A
+r 13 T
+A
+r 17 T
+A
+r 18 T
+A
+A
+r 28 T
+A
+r 17 T
+A
+A
+r 11 T
+A
+r 18 T
+A
+r 17 T
+A
+A
+r 20 T
+A
+r 16 T
+A
+r 17 T
+A
+A
+r 13 T
+A
+r 17 T
+A
+r 13 T
+A
+r 18 T
+A
+r 18 T
+A
+r 19 T
+A
+A
+r 21 T
+A
+r 17 T
+A
+A
+A
+r 14 T
+A
+r 19 T
+A
+A
+r 17 T
+A
+r 18 T
+A
+r 18 T
+A
+r 17 T
+A
+A
+r 15 T
+A
+r 26 T
+A
+r 27 T
+A
+A
+A
+r 15 T
+A
+r 18 T
+A
+r 13 T
+A
+r 13 T
+A
+r 13 T
+A
+A
+A
+r 15 T
+A
+r 18 T
+A
+r 13 T
+A
+r 13 T
+A
+r 13 T
+A
+A
+A
+r 17 T
+A
+r 20 T
+A
+r 19 T
+A
+r 17 T
+A
+A
+A
+r 20 T
+A
+r 20 T
+A
+r 17 T
+A
+r 17 T
+A
+r 18 T
+A
+r 18 T
+A
+r 23 T
+A
+A
+A
+r 21 T
+A
+r 20 T
+A
+r 20 T
+A
+r 21 T
+A
+A
+A
+r 19 T
+A
+r 14 T
+A
+r 13 T
+A
+r 14 T
+A
+r 15 T
+A
+r 13 T
+A
+r 12 T
+A
+A
+A
+r 16 T
+A
+r 18 T
+A
+r 11 T
+A
+r 14 T
+A
+A
+A
+r 15 T
+A
+r 14 T
+A
+r 18 T
+A
+r 22 T
+A
+r 18 T
+A
+r 22 T
+A
+r 19 T
+A
+r 19 T
+A
+r 18 T
+A
+r 13 T
+A
+A
+A
+r 17 T
+A
+r 17 T
+A
+r 19 T
+A
+r 18 T
+A
+r 18 T
+A
+r 19 T
+A
+r 18 T
+A
+r 14 T
+A
+A
+A
+r 23 T
+A
+r 16 T
+A
+r 21 T
+A
+r 13 T
+A
+r 20 T
+A
+r 22 T
+A
+r 22 T
+A
+A
+A
+r 18 T
+A
+r 20 T
+A
+r 20 T
+A
+r 17 T
+A
+A
+A
+r 12 T
+A
+r 12 T
+A
+r 18 T
+A
+r 14 T
+A
+r 15 T
+A
+r 18 T
+A
+A
+A
+r 10 T
+A
+A
+A
+r 9 T
+A
+A
+A
+r 10 T
+A
+A
+A
+r 14 T
+A
+A
+r 13 T
+A
+A
+A
+r 14 T
+A
+A
+r 13 T
+A
+A
+A
+r 14 T
+A
+A
+r 12 T
+r 662 X
+r 983039 U
+Ug
 </RomBytes>
     </Data>
   </Project>
