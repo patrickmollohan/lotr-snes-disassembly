@@ -24,21 +24,23 @@ See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on
 * Export the reverse engineered assembly code and remove any assets.
 * Create code to extract the assets from the user-provided ROMs.
 * Implement (optional) bugfixes, such as the fix for the [Moria password bug](https://cml-a.com/content/2021/04/06/lord-of-the-rings-snes-bugfix/).
+* Add [MSU-1 audio](https://www.reddit.com/r/snes/comments/ej14qy/comment/ft0u7rh/) support.
 * Reimplement assembly code in C, much like [zelda3](https://github.com/snesrev/zelda3).
+* Port to the Sega Mega Drive.
 
 ## Progress
 #### USA ROM Disassembly
-* Marking: 1.747% (18,320/1,048,576 bytes)
-* Labelling: 0%
-* Commenting: 0%
+* Marking: 2.077% (21,780/1,048,576 bytes)
+* Labelling: ?%
+* Commenting: ?%
 #### Europe ROM Disassembly
 * Marking: 0.006% (64/1,048,576 bytes)
-* Labelling: 0%
-* Commenting: 0%
+* Labelling: ?%
+* Commenting: ?%
 #### Germany ROM Disassembly
 * Marking: 0.006% (64/1,048,576 bytes)
-* Labelling: 0%
-* Commenting: 0%
+* Labelling: ?%
+* Commenting: ?%
 
 ## Credits
 * [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh) - Used for disassembly.
