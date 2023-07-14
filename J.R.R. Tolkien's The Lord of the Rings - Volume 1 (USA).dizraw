@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="101" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
-  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="33080">
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="1332">
     <LogWriterSettings Format="%label:-22% %code:37%; [%pc%] [%bytes%] [%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
     <Data RomMapMode="LoRom" RomSpeed="FastRom">
       <Comments AutomaticallyCaptureSubItems="false" HistoryLevels="50">
         <sys:Item Key="8421376" Value="Reached upon initial loading" />
         <sys:Item Key="8421419" Value="Reached upon initial loading" />
-        <sys:Item Key="8422574" Value="Reached upon initial loading" />
-        <sys:Item Key="8422589" Value="Reached upon initial loading" />
-        <sys:Item Key="8422597" Value="Reached upon initial loading" />
-        <sys:Item Key="8422613" Value="Reached upon initial loading" />
-        <sys:Item Key="8422661" Value="Reached upon initial loading" />
-        <sys:Item Key="8422693" Value="Reached upon initial loading" />
-        <sys:Item Key="8422707" Value="Reached upon initial loading" />
-        <sys:Item Key="8422724" Value="Reached upon initial loading" />
+        <sys:Item Key="8422574" Value="Store 0 in APU I/O" />
+        <sys:Item Key="8422589" Value="Store 0 from $210C - $2101 (background and object registers)" />
+        <sys:Item Key="8422597" Value="Store 0 from $2114 - $210D (scroll offset low and high registers)" />
+        <sys:Item Key="8422613" Value="Store 0 from $211A - $2116 (VRAM and Mode 7 addresses)" />
+        <sys:Item Key="8422661" Value="Store 0 from $212F - $2121 (window registers)" />
+        <sys:Item Key="8422693" Value="Store 0 from $420C - $4202 (DMA and math registers)" />
+        <sys:Item Key="8422710" Value="Enable OBJ and BG1" />
+        <sys:Item Key="8422724" Value="No clue what any of the addresses are just yet, but they belong to WRAM" />
         <sys:Item Key="8422925" Value="Reached upon initial loading" />
         <sys:Item Key="8424004" Value="Reached upon initial loading" />
         <sys:Item Key="8424011" Value="Reached upon initial loading" />
@@ -245,7 +245,7 @@
         <sys:Item Key="8433777" Value="Reached at copyright screen" />
         <sys:Item Key="8433779" Value="Reached at copyright screen" />
         <sys:Item Key="8433782" Value="Reached at copyright screen" />
-        <sys:Item Key="8433794" Value="Reached at copyright screen" />
+        <sys:Item Key="8433794" Value="Reached at copyright screen, labelled at Interplay screen. Might be code that loads number of frames to wait into memory." />
         <sys:Item Key="8433801" Value="Reached at copyright screen" />
         <sys:Item Key="8433796" Value="Reached at copyright screen" />
         <sys:Item Key="8433798" Value="Reached at copyright screen" />
@@ -304,7 +304,7 @@
         <sys:Item Key="8440000" Value="Reached at copyright screen" />
         <sys:Item Key="8440025" Value="Reached at copyright screen" />
         <sys:Item Key="8440063" Value="Reached at copyright screen" />
-        <sys:Item Key="8440424" Value="Reached at copyright screen" />
+        <sys:Item Key="8440424" Value="Reached at copyright screen, labelled at Interplay screen" />
         <sys:Item Key="8440459" Value="Reached at copyright screen" />
         <sys:Item Key="8440465" Value="Reached at copyright screen" />
         <sys:Item Key="8440471" Value="Reached at copyright screen" />
@@ -378,7 +378,7 @@
         <sys:Item Key="8451291" Value="Reached at copyright screen" />
         <sys:Item Key="8451332" Value="Reached at copyright screen" />
         <sys:Item Key="8451703" Value="Reached at copyright screen" />
-        <sys:Item Key="8451706" Value="Reached at copyright screen" />
+        <sys:Item Key="8451706" Value="Reached at copyright screen, labelled at Interplay logo" />
         <sys:Item Key="8451709" Value="Reached at copyright screen" />
         <sys:Item Key="8451712" Value="Reached at copyright screen" />
         <sys:Item Key="8451715" Value="Reached at copyright screen" />
@@ -448,6 +448,411 @@
         <sys:Item Key="8504562" Value="Reached at copyright screen" />
         <sys:Item Key="8504572" Value="Reached at copyright screen" />
         <sys:Item Key="8504581" Value="Reached at copyright screen" />
+        <sys:Item Key="8421723" Value="Reached at Interplay logo" />
+        <sys:Item Key="8421792" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423617" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423678" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423688" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423694" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423702" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423755" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423760" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423771" Value="Reached at Interplay logo" />
+        <sys:Item Key="8423776" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424172" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424251" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424253" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424315" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424354" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424357" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424643" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424716" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424789" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424818" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425138" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425141" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425144" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425147" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425150" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425153" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425156" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425159" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425162" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425165" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425168" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425171" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425174" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425177" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425180" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425183" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425186" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425189" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425192" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425195" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425198" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425201" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425204" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425207" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425210" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425213" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425216" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425446" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425449" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425452" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425454" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425455" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425458" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425461" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425463" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425462" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425502" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425531" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425532" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425533" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425579" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425580" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425583" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425614" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425638" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425651" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425719" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425721" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425738" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425741" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425763" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425786" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425794" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425802" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425814" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425926" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425940" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425948" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425969" Value="Reached at Interplay logo" />
+        <sys:Item Key="8425977" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426080" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426106" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426123" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426134" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426181" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426549" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426552" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426627" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426630" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426634" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426658" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426702" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426783" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426791" Value="Reached at Interplay logo" />
+        <sys:Item Key="8426799" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427534" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427566" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427613" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427638" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427657" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427668" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427698" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427703" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427721" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427725" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427742" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427756" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427777" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427802" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427823" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427849" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427859" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427866" Value="Reached at Interplay logo" />
+        <sys:Item Key="8427879" Value="Reached at Interplay logo" />
+        <sys:Item Key="8428952" Value="Reached at Interplay logo" />
+        <sys:Item Key="8428995" Value="Reached at Interplay logo" />
+        <sys:Item Key="8428998" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429520" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429534" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429573" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429622" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429636" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429664" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429691" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429706" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429710" Value="Reached at Interplay logo" />
+        <sys:Item Key="8429729" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430121" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430196" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430251" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430439" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430485" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430488" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430720" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430767" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430770" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430773" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430775" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430778" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430781" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430782" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430784" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430786" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430788" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430791" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430796" Value="Reached at Interplay logo" />
+        <sys:Item Key="8430825" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431004" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431021" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431087" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431101" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431140" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431189" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431203" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431294" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431363" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431377" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431418" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431512" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431526" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431617" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431686" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431761" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431816" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431824" Value="Reached at Interplay logo" />
+        <sys:Item Key="8431915" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432001" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432004" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432044" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432047" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432694" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432708" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432747" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432796" Value="Reached at Interplay logo" />
+        <sys:Item Key="8432901" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433293" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433368" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433423" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433717" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433879" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433882" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433885" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433887" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433888" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433889" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433891" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433894" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433896" Value="Reached at Interplay logo" />
+        <sys:Item Key="8433897" Value="Reached at Interplay logo" />
+        <sys:Item Key="8434347" Value="Reached at Interplay logo" />
+        <sys:Item Key="8434349" Value="Reached at Interplay logo" />
+        <sys:Item Key="8434350" Value="Reached at Interplay logo" />
+        <sys:Item Key="8434351" Value="Reached at Interplay logo" />
+        <sys:Item Key="8434352" Value="Reached at Interplay logo" />
+        <sys:Item Key="8434354" Value="Reached at Interplay logo" />
+        <sys:Item Key="8434356" Value="Reached at Interplay logo" />
+        <sys:Item Key="8435598" Value="Reached at Interplay logo" />
+        <sys:Item Key="8439742" Value="Reached at Interplay logo" />
+        <sys:Item Key="8439745" Value="Reached at Interplay logo" />
+        <sys:Item Key="8439765" Value="Reached at Interplay logo" />
+        <sys:Item Key="8439815" Value="Reached at Interplay logo" />
+        <sys:Item Key="8439833" Value="Reached at Interplay logo" />
+        <sys:Item Key="8440314" Value="Reached at Interplay logo" />
+        <sys:Item Key="8440320" Value="Reached at Interplay logo" />
+        <sys:Item Key="8440785" Value="Reached at Interplay logo" />
+        <sys:Item Key="8440810" Value="Reached at Interplay logo" />
+        <sys:Item Key="8440811" Value="Reached at Interplay logo" />
+        <sys:Item Key="8440874" Value="Reached at Interplay logo" />
+        <sys:Item Key="8440989" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441007" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441017" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441028" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441039" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441062" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441071" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441076" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441129" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441130" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441152" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441183" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441187" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441204" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441206" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441229" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441257" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441259" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441282" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441305" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441321" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441332" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441353" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441362" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441363" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441380" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441397" Value="Reached at Interplay logo" />
+        <sys:Item Key="8441398" Value="Reached at Interplay logo. Corrupted page turning graphics when I modified the LDA.B addresses." />
+        <sys:Item Key="8441654" Value="Reached at Interplay logo" />
+        <sys:Item Key="8442500" Value="Reached at Interplay logo" />
+        <sys:Item Key="8442504" Value="Reached at Interplay logo" />
+        <sys:Item Key="8442514" Value="Reached at Interplay logo" />
+        <sys:Item Key="8443038" Value="Reached at Interplay logo" />
+        <sys:Item Key="8451647" Value="Reached at Interplay logo" />
+        <sys:Item Key="8451677" Value="Reached at Interplay logo" />
+        <sys:Item Key="8451683" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487087" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487100" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487117" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487303" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487310" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487333" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487354" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487402" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487423" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487457" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487481" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487517" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487674" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487707" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487730" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487770" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487803" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487806" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487809" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487813" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487814" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487817" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487820" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487822" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487837" Value="Reached at Interplay logo" />
+        <sys:Item Key="8487864" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488249" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488283" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488250" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488251" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488253" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488255" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488254" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488258" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488259" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488260" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488263" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488265" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488268" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488270" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488273" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488277" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488280" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488303" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488328" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488355" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488411" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488415" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488450" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488482" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488512" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488539" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488542" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488548" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488573" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488574" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488575" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488577" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488578" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488579" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488582" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488583" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488584" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488587" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488589" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488592" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488594" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488596" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488599" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488640" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488671" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488708" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488855" Value="Reached at Interplay logo" />
+        <sys:Item Key="8488930" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490162" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490172" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490264" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490370" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490433" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490479" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490493" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490511" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490514" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490559" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490590" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490752" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490759" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490773" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490786" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490803" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490834" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490837" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490856" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490875" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490892" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490929" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490954" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490958" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490983" Value="Reached at Interplay logo" />
+        <sys:Item Key="8490991" Value="Reached at Interplay logo" />
+        <sys:Item Key="8491011" Value="Reached at Interplay logo" />
+        <sys:Item Key="8491048" Value="Reached at Interplay logo" />
+        <sys:Item Key="8491073" Value="Reached at Interplay logo" />
+        <sys:Item Key="8491077" Value="Reached at Interplay logo" />
+        <sys:Item Key="8491102" Value="Reached at Interplay logo" />
+        <sys:Item Key="8491110" Value="Reached at Interplay logo" />
+        <sys:Item Key="8495942" Value="Reached at Interplay logo" />
+        <sys:Item Key="8495946" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496003" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496007" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496131" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496134" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496138" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496140" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496141" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496145" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496146" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496149" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496206" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496210" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496212" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496214" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496215" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496219" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496220" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496223" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496226" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496229" Value="Reached at Interplay logo" />
+        <sys:Item Key="8496233" Value="Reached at Interplay logo" />
+        <sys:Item Key="8552744" Value="Corrupting 828128 to 8281C0 resulted in no sound." />
+        <sys:Item Key="8422619" Value="Mode 7 A register (Low)" />
+        <sys:Item Key="8422624" Value="Mode 7 A register (High)" />
+        <sys:Item Key="8422627" Value="Mode 7 B register (Low)" />
+        <sys:Item Key="8422630" Value="Mode 7 B register (High)" />
+        <sys:Item Key="8422633" Value="Mode 7 C register (Low)" />
+        <sys:Item Key="8422636" Value="Mode 7 C register (High)" />
+        <sys:Item Key="8422639" Value="Mode 7 D register (Low)" />
+        <sys:Item Key="8422644" Value="Mode 7 D register (High)" />
+        <sys:Item Key="8422647" Value="Mode 7 X register (Low)" />
+        <sys:Item Key="8422650" Value="Mode 7 X register (High)" />
+        <sys:Item Key="8422653" Value="Mode 7 Y register (Low)" />
+        <sys:Item Key="8422656" Value="Mode 7 Y register (High)" />
+        <sys:Item Key="8422608" Value="VRAM address increment register" />
+        <sys:Item Key="8422577" Value="Store 0 in APU I/0" />
+        <sys:Item Key="8422582" Value="Screen off, full brightness" />
+        <sys:Item Key="8422606" Value="Increment VRAM address after writing to $2119" />
+        <sys:Item Key="8422667" Value="Color math disable region = everywhere" />
+        <sys:Item Key="8422669" Value="Initial settings for color addition" />
+        <sys:Item Key="8422672" Value="Store 0 in colour math designation register (disable)" />
+        <sys:Item Key="8422675" Value="Colour data = black" />
+        <sys:Item Key="8422677" Value="Set colour data for addition/subtraction" />
+        <sys:Item Key="8422683" Value="Store 0 in screen mode/video select register" />
+        <sys:Item Key="8422688" Value="Init programmable I/O port (joypads 1 &amp; 2)" />
+        <sys:Item Key="8422686" Value="Set all controller buttons high" />
+        <sys:Item Key="8422699" Value="Enhancement: Set to LDA.B #$01 to enable FastROM" />
+        <sys:Item Key="8422701" Value="Access cycle speed: 0 = SlowROM (2.68 MHz), 1 = FastROM (3.58 MHz)" />
+        <sys:Item Key="8422680" Value="Store 0 in screen settings (overscan, interlace)" />
+        <sys:Item Key="8422712" Value="Main screen layer enable" />
+        <sys:Item Key="8422715" Value="Disable subscreen layer" />
+        <sys:Item Key="8422718" Value="Optimisation: Redundant? $2133 is still 0 from 808518. Appears this instruction can be eliminated." />
       </Comments>
       <Labels>
         <sys:Item Key="8454116">
@@ -485,6 +890,30 @@
         </sys:Item>
         <sys:Item Key="8517580">
           <Value exs:type="ns1:Label" Name="French_Instructions" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422613">
+          <Value exs:type="ns1:Label" Name="Reset_Mode7" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422597">
+          <Value exs:type="ns1:Label" Name="Reset_Scroll" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422589">
+          <Value exs:type="ns1:Label" Name="Reset_BG_OBJ" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422574">
+          <Value exs:type="ns1:Label" Name="Reset_APU_Screen" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422661">
+          <Value exs:type="ns1:Label" Name="Reset_Windows_Colour" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422693">
+          <Value exs:type="ns1:Label" Name="Reset_DMA_Math" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422707">
+          <Value exs:type="ns1:Label" Name="Reset_Layer_Enable" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422724">
+          <Value exs:type="ns1:Label" Name="Reset_WRAM" Comment="" />
         </sys:Item>
       </Labels>
       <RomBytes>
