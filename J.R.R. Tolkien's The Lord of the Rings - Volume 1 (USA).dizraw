@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="101" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
-  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="1332">
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="30431">
     <LogWriterSettings Format="%label:-22% %code:37%; [%pc%] [%bytes%] [%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
     <Data RomMapMode="LoRom" RomSpeed="FastRom">
       <Comments AutomaticallyCaptureSubItems="false" HistoryLevels="50">
@@ -123,7 +123,7 @@
         <sys:Item Key="8422479" Value="Reached at copyright screen" />
         <sys:Item Key="8422492" Value="Reached at copyright screen" />
         <sys:Item Key="8422505" Value="Reached at copyright screen" />
-        <sys:Item Key="8422506" Value="Reached at copyright screen" />
+        <sys:Item Key="8422506" Value="Setup DMA copy for CGRAM data" />
         <sys:Item Key="8422747" Value="Reached at copyright screen" />
         <sys:Item Key="8422753" Value="Reached at copyright screen" />
         <sys:Item Key="8422763" Value="Reached at copyright screen" />
@@ -138,7 +138,7 @@
         <sys:Item Key="8423162" Value="Reached at copyright screen" />
         <sys:Item Key="8423181" Value="Reached at copyright screen" />
         <sys:Item Key="8423194" Value="Reached at copyright screen" />
-        <sys:Item Key="8423237" Value="Reached at copyright screen" />
+        <sys:Item Key="8423237" Value="Write CGDATA via DMAP2" />
         <sys:Item Key="8423254" Value="Reached at copyright screen" />
         <sys:Item Key="8423291" Value="Reached at copyright screen" />
         <sys:Item Key="8423335" Value="Reached at copyright screen" />
@@ -386,15 +386,15 @@
         <sys:Item Key="8451721" Value="Reached at copyright screen" />
         <sys:Item Key="8451752" Value="Reached at copyright screen" />
         <sys:Item Key="8451784" Value="Reached at copyright screen" />
-        <sys:Item Key="8451808" Value="Reached at copyright screen" />
-        <sys:Item Key="8451811" Value="Reached at copyright screen" />
-        <sys:Item Key="8451837" Value="Reached at copyright screen" />
+        <sys:Item Key="8451857" Value="Only keep lower 4 bits" />
+        <sys:Item Key="8451811" Value="Screen and joypad status" />
+        <sys:Item Key="8451837" Value="Presumably mouse/joypad status. Not part of standard mouse BIOS. TODO: verify what this is/where it's used." />
         <sys:Item Key="8451849" Value="Reached at copyright screen" />
-        <sys:Item Key="8451854" Value="Reached at copyright screen" />
+        <sys:Item Key="8451854" Value="Store value from $4218 ($80F6EC) into $02C4" />
         <sys:Item Key="8452081" Value="Reached at copyright screen" />
         <sys:Item Key="8452634" Value="Reached at copyright screen" />
-        <sys:Item Key="8453028" Value="Reached at copyright screen" />
-        <sys:Item Key="8453031" Value="Reached at copyright screen" />
+        <sys:Item Key="8453034" Value="Joypad auto-read in-progress flag" />
+        <sys:Item Key="8453031" Value="Screen and joypad status" />
         <sys:Item Key="8453112" Value="Reached at copyright screen" />
         <sys:Item Key="8453251" Value="Reached at copyright screen" />
         <sys:Item Key="8453260" Value="Reached at copyright screen" />
@@ -853,6 +853,74 @@
         <sys:Item Key="8422712" Value="Main screen layer enable" />
         <sys:Item Key="8422715" Value="Disable subscreen layer" />
         <sys:Item Key="8422718" Value="Optimisation: Redundant? $2133 is still 0 from 808518. Appears this instruction can be eliminated." />
+        <sys:Item Key="8451814" Value="Joypad auto-read in-progress flag" />
+        <sys:Item Key="8451816" Value="Branch until mouse is ready" />
+        <sys:Item Key="8451820" Value="Joypad port 1 data 1" />
+        <sys:Item Key="8451859" Value="If A = #$01, mouse is connected" />
+        <sys:Item Key="8451861" Value="Branch if mouse connected" />
+        <sys:Item Key="8451863" Value="Clear connection status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451866" Value="Clear X-direction status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451869" Value="Clear Y-direction status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451872" Value="Clear button turbo status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451875" Value="Clear button trigger status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451878" Value="Clear previous switch status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451951" Value="Load mouse connection status" />
+        <sys:Item Key="8452020" Value="Error code for mouse speed" />
+        <sys:Item Key="8452022" Value="Store error code in mouse speed state" />
+        <sys:Item Key="8451954" Value="If mouse not connected, return error" />
+        <sys:Item Key="8451958" Value="Store loop count in WRAM" />
+        <sys:Item Key="8451963" Value="Latch shift register" />
+        <sys:Item Key="8451966" Value="Read from shift register, change speed by 1 step" />
+        <sys:Item Key="8451969" Value="Unlatch shift register" />
+        <sys:Item Key="8451974" Value="Latch shift register" />
+        <sys:Item Key="8451979" Value="Unlatch shift register" />
+        <sys:Item Key="8451982" Value="Clear mouse speed in WRAM" />
+        <sys:Item Key="8451985" Value="Ignore first 10 bits of shift register data" />
+        <sys:Item Key="8451991" Value="Loop through first 10 bits of shift register" />
+        <sys:Item Key="8451987" Value="Read from shift register" />
+        <sys:Item Key="8451993" Value="Read bit 5 of second byte of mouse shift register" />
+        <sys:Item Key="8452000" Value="Read bit 4 of second byte of mouse shift register" />
+        <sys:Item Key="8451961" Value="Set initial mouse speed" />
+        <sys:Item Key="8451977" Value="Clear shift register" />
+        <sys:Item Key="8452010" Value="Is the correct speed set?" />
+        <sys:Item Key="8452013" Value="If the mouse speed is correct, return" />
+        <sys:Item Key="8452018" Value="Loop back to beginning and set speed again" />
+        <sys:Item Key="8451882" Value="Read connection status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451885" Value="Branch if mouse is connected" />
+        <sys:Item Key="8451818" Value="Controller 0 offset. Unnessary, as the game only uses the mouse in port 1." />
+        <sys:Item Key="8451823" Value="Read current mouse state" />
+        <sys:Item Key="8451889" Value="Mouse connected to port 1. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451892" Value="Joypad 1 connected. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451898" Value="Read from shift register. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451901" Value="Shift value from shift register right in A." />
+        <sys:Item Key="8451902" Value="Rotate X-direction status left. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451905" Value="Rotate Y-direction status left. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451909" Value="Loop 16 times ($80F738)." />
+        <sys:Item Key="8451914" Value="Rotate joypad 1 data left." />
+        <sys:Item Key="8451920" Value="Rotate joypad 1 data left." />
+        <sys:Item Key="8451911" Value="Clear button turbo status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451923" Value="Rotate carry into button status (left click). Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451917" Value="Rotate carry into button status (right click). Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451926" Value="Load button status into A. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451929" Value="Check if current button status is the same as previous button status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451932" Value="If current button status != previous button status, set button status." />
+        <sys:Item Key="8451934" Value="Clear button trigger status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451938" Value="Load current button status into A. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451941" Value="Set button trigger status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8451944" Value="Set previous button status. Optimisation: Change from Absolute Indexed to Absolute. X is always 0, so we can save 1 CPU cycle here." />
+        <sys:Item Key="8453036" Value="Branch until controller is ready" />
+        <sys:Item Key="8422508" Value="Copy from WRAM via DMAP2" />
+        <sys:Item Key="8422511" Value="Set VRAM address $2122 (CGDATA)" />
+        <sys:Item Key="8422513" Value="Set lower 8-bits of DMA destination ($2122)" />
+        <sys:Item Key="8422516" Value="Set DMA source bank to $7E (WRAM)" />
+        <sys:Item Key="8422518" Value="Set upper 8-bits of DMA source address ($7E3000)" />
+        <sys:Item Key="8422523" Value="Set DMA source offset to #$3000 (HighRAM)" />
+        <sys:Item Key="8422526" Value="Set lower 16-bits of DMA source address ($7E3000)" />
+        <sys:Item Key="8422529" Value="Set number of bytes to copy (#$0200)" />
+        <sys:Item Key="8422532" Value="Set DMA transfer size (#$0200)" />
+        <sys:Item Key="8423239" Value="Clear CGADD, set to write mode" />
+        <sys:Item Key="8423242" Value="Select DMA channel 2" />
+        <sys:Item Key="8423244" Value="Begin DMA transfer" />
       </Comments>
       <Labels>
         <sys:Item Key="8454116">
@@ -874,16 +942,16 @@
           <Value exs:type="ns1:Label" Name="Game_Title" Comment="" />
         </sys:Item>
         <sys:Item Key="8453363">
-          <Value exs:type="ns1:Label" Name="End_Multi5_Con_Text" Comment="" />
+          <Value exs:type="ns1:Label" Name="Modified_Multi5_Con_Check" Comment="" />
         </sys:Item>
         <sys:Item Key="8453222">
-          <Value exs:type="ns1:Label" Name="Start_Multi5_Con_Text" Comment="" />
+          <Value exs:type="ns1:Label" Name="Start_Multi5_Con_Check" Comment="" />
         </sys:Item>
         <sys:Item Key="8453166">
-          <Value exs:type="ns1:Label" Name="End_Multi5_BIOS_Text" Comment="" />
+          <Value exs:type="ns1:Label" Name="Modified_Multi5_BIOS" Comment="" />
         </sys:Item>
         <sys:Item Key="8453008">
-          <Value exs:type="ns1:Label" Name="Start_Multi5_BIOS_Text" Comment="" />
+          <Value exs:type="ns1:Label" Name="Start_Multi5_BIOS" Comment="" />
         </sys:Item>
         <sys:Item Key="8516609">
           <Value exs:type="ns1:Label" Name="French_Credits" Comment="" />
@@ -914,6 +982,78 @@
         </sys:Item>
         <sys:Item Key="8422724">
           <Value exs:type="ns1:Label" Name="Reset_WRAM" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451789">
+          <Value exs:type="ns1:Label" Name="Start_Mouse_BIOS" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8452027">
+          <Value exs:type="ns1:Label" Name="Modified_Mouse_BIOS" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451811">
+          <Value exs:type="ns1:Label" Name="Wait_For_Mouse" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451808">
+          <Value exs:type="ns1:Label" Name="Read_Mouse" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451809">
+          <Value exs:type="ns1:Label" Name="" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451854">
+          <Value exs:type="ns1:Label" Name="Read_Mouse_Data" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451948">
+          <Value exs:type="ns1:Label" Name="Set_Mouse_Speed" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451882">
+          <Value exs:type="ns1:Label" Name="Mouse_Connected" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8452020">
+          <Value exs:type="ns1:Label" Name="Set_Mouse_Speed_Error" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8452025">
+          <Value exs:type="ns1:Label" Name="Return_Mouse_Speed" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451961">
+          <Value exs:type="ns1:Label" Name="Reset_Mouse_Speed" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451987">
+          <Value exs:type="ns1:Label" Name="Read_Mouse_Shift_Reg" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451898">
+          <Value exs:type="ns1:Label" Name="Read_Mouse_Movement" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451896">
+          <Value exs:type="ns1:Label" Name="Read_Mouse_State" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451849">
+          <Value exs:type="ns1:Label" Name="Return_Mouse_Status" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451837">
+          <Value exs:type="ns1:Label" Name="Set_Mouse_Status" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8451938">
+          <Value exs:type="ns1:Label" Name="Set_Mouse_Buttons" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453028">
+          <Value exs:type="ns1:Label" Name="Read_Controller" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453031">
+          <Value exs:type="ns1:Label" Name="Wait_For_Controller" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8452064">
+          <Value exs:type="ns1:Label" Name="End_Mouse_BIOS" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453204">
+          <Value exs:type="ns1:Label" Name="End_Multi5_BIOS" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8453410">
+          <Value exs:type="ns1:Label" Name="End_Multi5_Con_Check" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8422506">
+          <Value exs:type="ns1:Label" Name="Setup_CGDATA_DMA" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423237">
+          <Value exs:type="ns1:Label" Name="Write_CGDATA_DMA" Comment="" />
         </sys:Item>
       </Labels>
       <RomBytes>
@@ -15116,12 +15256,12 @@ r 18 T
 .D8
 +D8
 .D8
-U
-U
-U
-U
-U
-U
++L8
+.D8
+.D8
++D8
+.D8
+.D8
 +D8
 .D8
 .D8
@@ -15130,11 +15270,11 @@ U
 +D8
 .D8
 .D8
++L8
+.D8
 +D8
 .D8
-U
-U
-+D8
++H8
 .D8
 .D8
 +D8
@@ -15167,7 +15307,151 @@ U
 .D8
 .D8
 +D8
-r 145 U
++D8
+.D8
+.D8
++L8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++T8
++H8
+.D8
++H8
+.D8
+.D8
++D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
++L8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++L8
+.D8
++D8
+.D8
+.D8
++T8
++H8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++T8
++H8
++D8
+.D8
++D8
+.D8
+.D8
++L8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++H8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++H8
+.D8
+.D8
++D8
++L8
+.D8
++D8
+.D8
+.D8
++D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
+.D8
++L8
+.D8
++D8
+.D8
+.D8
++L8
+.D8
++H8
+.D8
++D8
+.D8
+.D8
++H8
++T8
 r 54 T
 +08
 .08
