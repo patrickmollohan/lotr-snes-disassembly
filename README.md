@@ -26,11 +26,11 @@ See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on
 * Implement (optional) bugfixes, such as the fix for the [Moria password bug](https://cml-a.com/content/2021/04/06/lord-of-the-rings-snes-bugfix/).
 * Add [MSU-1 audio](https://www.reddit.com/r/snes/comments/ej14qy/comment/ft0u7rh/) support.
 * Reimplement assembly code in C, much like [zelda3](https://github.com/snesrev/zelda3).
-* Port to the Sega Mega Drive.
+* Port to the Sega Mega Drive, Nintendo 3DS, and other systems.
 
 ## Progress
 #### USA ROM Disassembly
-* Marking: 2.077% (21,780/1,048,576 bytes)
+* Marking: 2.094% (21,954/1,048,576 bytes)
 * Labelling: ?%
 * Commenting: ?%
 #### Europe ROM Disassembly
