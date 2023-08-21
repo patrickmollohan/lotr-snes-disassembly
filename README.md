@@ -30,7 +30,7 @@ See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on
 
 ## Progress
 #### USA ROM Disassembly
-* Marking: 2.094% (21,954/1,048,576 bytes)
+* Marking: 2.140% (22,440/1,048,576 bytes)
 * Labelling: ?%
 * Commenting: ?%
 #### Europe ROM Disassembly
@@ -45,3 +45,4 @@ See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on
 ## Credits
 * [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh) - Used for disassembly.
 * [bsnes-plus](https://github.com/DizTools/bsnes-plus) - Used for tracelog capturing and debugging.
+* [ClAndrew](https://cml-a.com/content/2021/04/06/lord-of-the-rings-snes-bugfix/) - Reverse engineering password system.
