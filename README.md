@@ -7,7 +7,8 @@ The game features support for the Super Multitap, allowing for a multiplayer exp
 
 ## Requirements
 * A copy of the ROM (see table below for ROM info).
-* The latest version of [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh/releases).
+* The latest version of [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh/releases) for disassembling the ROM.
+* The latest version of [Asar](https://github.com/RPGHacker/asar/releases) for reassembling the exported source code (optional).
 * The latest version of a patched [bsnes-plus](https://github.com/DizTools/bsnes-plus/releases) for tracelog capturing (optional).
 
 ## ROM Info (Headerless)
@@ -30,7 +31,7 @@ See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on
 
 ## Progress
 #### USA ROM Disassembly
-* Marking: 2.140% (22,440/1,048,576 bytes)
+* Marking: 2.221% (23,294/1,048,576 bytes)
 * Labelling: ?%
 * Commenting: ?%
 #### Europe ROM Disassembly
@@ -43,6 +44,7 @@ See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on
 * Commenting: ?%
 
 ## Credits
-* [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh) - Used for disassembly.
+* [DiztinGUIsh](https://github.com/IsoFrieze/DiztinGUIsh) - Used for disassembling the ROM.
+* [Asar](https://github.com/RPGHacker/asar) - Used for reassembling the exported source code.
 * [bsnes-plus](https://github.com/DizTools/bsnes-plus) - Used for tracelog capturing and debugging.
-* [ClAndrew](https://cml-a.com/content/2021/04/06/lord-of-the-rings-snes-bugfix/) - Reverse engineering password system.
+* [ClAndrew](https://cml-a.com/content/2021/04/06/lord-of-the-rings-snes-bugfix/) - Reverse engineering the password system.
