@@ -1,7 +1,7 @@
-# J.R.R. Tolkien's The Lord of the Rings - Volume 1 (SNES) Disassembly
-Disassembly of J.R.R. Tolkien's The Lord of the Rings - Volume 1 (SNES) using DiztinGUIsh.
+# J.R.R. Tolkien's The Lord of the Rings: Volume 1 (SNES) Disassembly
+Disassembly of J.R.R. Tolkien's The Lord of the Rings: Volume 1 (SNES) using DiztinGUIsh.
 
-This project aims to fully reverse engineer J.R.R. Tolkien's The Lord of the Rings - Volume 1 on the Super Nintendo Entertainment System (SNES) using DiztinGUIsh. Released in 1994 in North America and in 1995 in Europe by Interplay Productions, this game is an adaptation of The Fellowship of the Ring by J.R.R. Tolkien and follows the journey of Frodo Baggins as he quests to Mordor from the lands of the Shire to destroy the One Ring his uncle found 60 years prior. The player initially controls Frodo who recruits his friends Samwise Gamgee, Meriadoc Brandybuck, and Peregrin Took before leaving the Shire. The player later assumes the role of Aragorn after recruiting him in Bree. Also joining the Fellowship are Gimli, Legolas, and Gandalf (Boromir, although present in the game, does not join the party).
+This project aims to fully reverse engineer J.R.R. Tolkien's The Lord of the Rings: Volume 1 on the Super Nintendo Entertainment System (SNES) using DiztinGUIsh. Released in 1994 in North America and in 1995 in Europe by Interplay Productions, this game is an adaptation of The Fellowship of the Ring by J.R.R. Tolkien and follows the journey of Frodo Baggins as he quests to Mordor from the lands of the Shire to destroy the One Ring his uncle found 60 years prior. The player initially controls Frodo who recruits his friends Samwise Gamgee, Meriadoc Brandybuck, and Peregrin Took before leaving the Shire. The player later assumes the role of Aragorn after recruiting him in Bree. Also joining the Fellowship are Gimli, Legolas, and Gandalf (Boromir, although present in the game, does not join the party).
 
 The game features support for the Super Multitap, allowing for a multiplayer experience with up to five people. The game also supports the Super NES Mouse, used for movement, interaction, and inventory management.
 
@@ -31,7 +31,7 @@ See my guide on [cartridge dumping](docs/CARTDUMPING.md) for a basic tutorial on
 
 ## Progress
 #### USA ROM Disassembly
-* Marking: 2.221% (23,294/1,048,576 bytes)
+* Marking: 97.459% (1,021,932/1,048,576 bytes)
 * Labelling: ?%
 * Commenting: ?%
 #### Europe ROM Disassembly
