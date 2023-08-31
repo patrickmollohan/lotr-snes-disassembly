@@ -18,7 +18,7 @@ The game features support for the Super Multitap, allowing for a multiplayer exp
 | Europe  | 247C17D3 | 5EE8E70B0D80821274CC8689C4DB22215B5AE52F |
 | Germany | 8B172B4E | D0A54A6E4E7C27FD6DA23AD53201679272F9AC04 |
 
-See my guide on [cartridge dumping](Docs/CARTDUMPING.md) for a basic tutorial on dumping your own ROM.
+See my guide on [cartridge dumping](../../wiki/Cartridge-Dumping) for a basic tutorial on dumping your own ROM.
 
 ## Goals
 * Fully mark, label, and comment the USA, Europe, and Germany ROMs using DiztinGUIsh.
@@ -31,7 +31,7 @@ See my guide on [cartridge dumping](Docs/CARTDUMPING.md) for a basic tutorial on
 
 ## Progress
 #### USA ROM Disassembly
-* Marking: 97.459% (1,021,932/1,048,576 bytes)
+* Marking: 97.925% (1,026,814/1,048,576 bytes)
 * Labelling: ?%
 * Commenting: ?%
 #### Europe ROM Disassembly
