@@ -31,7 +31,7 @@ See my guide on [cartridge dumping](../../wiki/Cartridge-Dumping) for a basic tu
 
 ## Progress
 #### USA ROM Disassembly
-* Marking: 97.925% (1,026,814/1,048,576 bytes)
+* Marking: 98.208% (1,029,787/1,048,576 bytes)
 * Labelling: ?%
 * Commenting: ?%
 #### Europe ROM Disassembly
