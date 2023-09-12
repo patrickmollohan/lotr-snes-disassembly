@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="101" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
-  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="0">
-    <LogWriterSettings Format="%label:-22% %code:37%; [%pc%] [%bytes%] [%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="42901">
+    <LogWriterSettings Format="%label:-22% %code:37%; [%pc%|%bytes%|%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
     <Data RomMapMode="LoRom" RomSpeed="FastRom">
       <Comments AutomaticallyCaptureSubItems="false" HistoryLevels="50">
         <sys:Item Key="8421376" Value="Reached upon initial loading" />
@@ -949,9 +949,9 @@
         <sys:Item Key="8449937" Value="Loop until no input from mouse buttons" />
         <sys:Item Key="8449942" Value="Loop until a mouse button has been pressed" />
         <sys:Item Key="8449947" Value="Loop until mouse buttons have been released" />
-        <sys:Item Key="8505612" Value="Reached upon loading &quot;Continue&quot; screen" />
-        <sys:Item Key="8505616" Value="Reached upon loading &quot;Continue&quot; screen" />
-        <sys:Item Key="8505618" Value="Reached upon loading &quot;Continue&quot; screen" />
+        <sys:Item Key="8505612" Value="Load mouse connection status into A" />
+        <sys:Item Key="8505616" Value="Branch if mouse is connected" />
+        <sys:Item Key="8505618" Value="Return" />
         <sys:Item Key="8505817" Value="Reached when moved cursor on &quot;Continue&quot; screen" />
         <sys:Item Key="8505819" Value="Reached when moved cursor on &quot;Continue&quot; screen" />
         <sys:Item Key="8505822" Value="Reached when moved cursor on &quot;Continue&quot; screen" />
@@ -1475,10 +1475,10 @@
         <sys:Item Key="8496800" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8496803" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8496816" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8497016" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8497041" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8497071" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8497072" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
+        <sys:Item Key="8497016" Value="Set A to 8-bit mode" />
+        <sys:Item Key="8497041" Value="Load currently highlighted item into A" />
+        <sys:Item Key="8497071" Value="Return" />
+        <sys:Item Key="8497072" Value="Store Y in VRAM word address" />
         <sys:Item Key="8497130" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8497140" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8497148" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
@@ -1515,8 +1515,8 @@
         <sys:Item Key="8498414" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8498475" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8498529" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8498584" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8498606" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
+        <sys:Item Key="8498584" Value="Load selected character index" />
+        <sys:Item Key="8498606" Value="Shift A left one bit" />
         <sys:Item Key="8498640" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8498727" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8498757" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
@@ -1525,7 +1525,7 @@
         <sys:Item Key="8499073" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8499257" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8499263" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8502206" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
+        <sys:Item Key="8502206" Value="Clear carry flag" />
         <sys:Item Key="8423457" Value="Reached when &quot;R&quot; pressed on stats screen (no Fellowship, go to inventory screen)" />
         <sys:Item Key="8423461" Value="Reached when &quot;R&quot; pressed on stats screen (no Fellowship, go to inventory screen)" />
         <sys:Item Key="8423464" Value="Reached when &quot;R&quot; pressed on stats screen (no Fellowship, go to inventory screen)" />
@@ -1631,11 +1631,11 @@
         <sys:Item Key="8496836" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
         <sys:Item Key="8496837" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
         <sys:Item Key="8496853" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
-        <sys:Item Key="8497031" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
-        <sys:Item Key="8497034" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
-        <sys:Item Key="8497037" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
-        <sys:Item Key="8497038" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
-        <sys:Item Key="8497101" Value="Reached when &quot;Left&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
+        <sys:Item Key="8497031" Value="?" />
+        <sys:Item Key="8497034" Value="Unhighlight left tiles of previous item" />
+        <sys:Item Key="8497037" Value="Increment Y" />
+        <sys:Item Key="8497038" Value="Unhighlight right tiles of previous item" />
+        <sys:Item Key="8497101" Value="Store Y in VRAM word address" />
         <sys:Item Key="8496529" Value="Reached when &quot;Right&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
         <sys:Item Key="8496532" Value="Reached when &quot;Right&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
         <sys:Item Key="8496768" Value="Reached when &quot;Right&quot; pressed on inventory screen (&quot;The Ring&quot; highlighted, no other items)" />
@@ -1678,8 +1678,8 @@
         <sys:Item Key="8505715" Value="Reached when mouse connected on startup (possibly moving cursor on main menu)" />
         <sys:Item Key="8505723" Value="Reached when mouse connected on startup (possibly moving cursor on main menu)" />
         <sys:Item Key="8505739" Value="Reached when mouse connected on startup (possibly moving cursor on main menu)" />
-        <sys:Item Key="8505619" Value="Reached when mouse moved/pressed on &quot;Continue&quot; screen" />
-        <sys:Item Key="8505637" Value="Reached when mouse moved/pressed on &quot;Continue&quot; screen" />
+        <sys:Item Key="8505619" Value="Set A to 8-bit mode" />
+        <sys:Item Key="8505637" Value="Ignore most significant bit" />
         <sys:Item Key="8505647" Value="Reached when mouse moved/pressed on &quot;Continue&quot; screen" />
         <sys:Item Key="8505663" Value="Reached when mouse moved/pressed on &quot;Continue&quot; screen" />
         <sys:Item Key="8505671" Value="Reached when mouse moved/pressed on &quot;Continue&quot; screen" />
@@ -2100,11 +2100,11 @@
         <sys:Item Key="8437276" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
         <sys:Item Key="8438353" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
         <sys:Item Key="8438366" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
-        <sys:Item Key="8438379" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
-        <sys:Item Key="8438413" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
+        <sys:Item Key="8438379" Value="Shift A left one bit" />
+        <sys:Item Key="8438413" Value="Store updated enemy health" />
         <sys:Item Key="8438418" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
-        <sys:Item Key="8438441" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
-        <sys:Item Key="8438467" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
+        <sys:Item Key="8438441" Value="Shift A left one bit" />
+        <sys:Item Key="8438467" Value="Load character's defense into A" />
         <sys:Item Key="8438486" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
         <sys:Item Key="8444540" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
         <sys:Item Key="8444542" Value="Reached when interacting with wolf (get hit by, stabbed, blocked, killed)" />
@@ -2203,8 +2203,8 @@
         <sys:Item Key="8435029" Value="Reached when Pippin interacted with wolves (attacked, blocked, hit, died)" />
         <sys:Item Key="8435031" Value="Reached when Pippin interacted with wolves (attacked, blocked, hit, died)" />
         <sys:Item Key="8435034" Value="Reached when Pippin interacted with wolves (attacked, blocked, hit, died)" />
-        <sys:Item Key="8438465" Value="Reached when Pippin interacted with wolves (attacked, blocked, hit, died)" />
-        <sys:Item Key="8438470" Value="Labeled when Pippin interacted with wolves (attacked, blocked, hit, died)" />
+        <sys:Item Key="8438465" Value="?" />
+        <sys:Item Key="8438470" Value="Set carry flag" />
         <sys:Item Key="8446601" Value="Reached when Pippin interacted with wolves (attacked, blocked, hit, died)" />
         <sys:Item Key="8446604" Value="Reached when Pippin interacted with wolves (attacked, blocked, hit, died)" />
         <sys:Item Key="8446605" Value="Reached when Pippin interacted with wolves (attacked, blocked, hit, died)" />
@@ -2404,7 +2404,7 @@
         <sys:Item Key="8448542" Value="Reached when healing moss respawned and reacquired" />
         <sys:Item Key="8448885" Value="Reached when healing moss respawned and reacquired" />
         <sys:Item Key="8504900" Value="Reached when healing moss respawned and reacquired" />
-        <sys:Item Key="8438410" Value="Reached when Pippin killed a wolf and leveled up" />
+        <sys:Item Key="8438410" Value="If health is &lt; 0, load 0 into A and fall through" />
         <sys:Item Key="8496882" Value="Reached when &quot;Mushroom&quot; highlighted on inventory screen" />
         <sys:Item Key="8496885" Value="Reached when &quot;Mushroom&quot; highlighted on inventory screen" />
         <sys:Item Key="8496898" Value="Reached when &quot;Mushroom&quot; highlighted on inventory screen" />
@@ -2855,8 +2855,8 @@
         <sys:Item Key="8436660" Value="Reached when touched large stone covering cave in Troll Shaws" />
         <sys:Item Key="8436662" Value="Reached when touched large stone covering cave in Troll Shaws" />
         <sys:Item Key="8436665" Value="Reached when hit large stone covering cave in Troll Shaws" />
-        <sys:Item Key="8438433" Value="Reached when something happened in the Troll Shaws cave" />
-        <sys:Item Key="8438436" Value="Reached when something happened in the Troll Shaws cave" />
+        <sys:Item Key="8438433" Value="Load 2 into A" />
+        <sys:Item Key="8438436" Value="Branch to Damage_Ally, damaging Frodo" />
         <sys:Item Key="8435715" Value="Reached when Aragorn fought a green and a blue orc" />
         <sys:Item Key="8438376" Value="Reached when one of the blue hobbits fought and killed a troll" />
         <sys:Item Key="8505398" Value="Reached when one of the blue hobbits fought and killed a troll" />
@@ -3043,7 +3043,7 @@
         <sys:Item Key="8448538" Value="Reached upon fighting Balrog" />
         <sys:Item Key="8505548" Value="Reached upon fighting Balrog" />
         <sys:Item Key="8434611" Value="Reached upon getting killed by Balrog" />
-        <sys:Item Key="8438438" Value="Reached upon getting killed by Balrog" />
+        <sys:Item Key="8438438" Value="Load 7 into A and fall through, damaging Gandalf" />
         <sys:Item Key="8441760" Value="Reached upon defeating Balrog" />
         <sys:Item Key="8505286" Value="Reached upon defeating Balrog" />
         <sys:Item Key="8505290" Value="Reached upon defeating Balrog" />
@@ -3133,6 +3133,104 @@
         <sys:Item Key="8448719" Value="Load value #$0100" />
         <sys:Item Key="8448722" Value="Store value in dialog offset" />
         <sys:Item Key="8448724" Value="?" />
+        <sys:Item Key="8438382" Value="Load character's current weapon into A" />
+        <sys:Item Key="8438385" Value="Clear carry flag" />
+        <sys:Item Key="8438386" Value="Add weapon's strength offset" />
+        <sys:Item Key="8438390" Value="Shift A left one bit" />
+        <sys:Item Key="8438391" Value="Transfer A to X" />
+        <sys:Item Key="8438392" Value="Load weapon's strength from table using X as offset" />
+        <sys:Item Key="8438395" Value="Clear carry flag" />
+        <sys:Item Key="8438396" Value="Add character's current level into A" />
+        <sys:Item Key="8438399" Value="Store total strength into temp variable" />
+        <sys:Item Key="8438401" Value="Pull X" />
+        <sys:Item Key="8438402" Value="Load enemy's health into A" />
+        <sys:Item Key="8438405" Value="Set carry flag" />
+        <sys:Item Key="8438406" Value="Subtract total strength from enemy's health" />
+        <sys:Item Key="8438380" Value="Transfer A to Y" />
+        <sys:Item Key="8438381" Value="Transfer A to X" />
+        <sys:Item Key="8438416" Value="Clear decimal flag" />
+        <sys:Item Key="8438417" Value="Return" />
+        <sys:Item Key="8438408" Value="Branch if enemy health is &gt;= 0" />
+        <sys:Item Key="8438442" Value="Transfer A to X" />
+        <sys:Item Key="8438443" Value="Load character's current armor into A" />
+        <sys:Item Key="8438446" Value="Shift A left one bit" />
+        <sys:Item Key="8438447" Value="Transfer A to Y" />
+        <sys:Item Key="8438448" Value="Load armor's defense from table using X as offset" />
+        <sys:Item Key="8438451" Value="Clear carry flag" />
+        <sys:Item Key="8438452" Value="Add character's current level into A" />
+        <sys:Item Key="8438455" Value="Store total defense into $34" />
+        <sys:Item Key="8438457" Value="Pull Y" />
+        <sys:Item Key="8438458" Value="Load enemy's strength into A" />
+        <sys:Item Key="8438461" Value="Compare enemy's strength with character's defense" />
+        <sys:Item Key="8438463" Value="Branch if they are equal" />
+        <sys:Item Key="8438469" Value="Increment defense" />
+        <sys:Item Key="8438471" Value="Subtract character's defense from A" />
+        <sys:Item Key="8498587" Value="Shift A left one bit" />
+        <sys:Item Key="8498588" Value="Transfer A to Y" />
+        <sys:Item Key="8498589" Value="Transfer A to X" />
+        <sys:Item Key="8498590" Value="Load character's current weapon into A" />
+        <sys:Item Key="8498593" Value="Clear carry flag" />
+        <sys:Item Key="8498594" Value="Add weapon's strength offset" />
+        <sys:Item Key="8498598" Value="Compare weapon index with 10" />
+        <sys:Item Key="8498601" Value="Branch if index &lt; 10" />
+        <sys:Item Key="8498603" Value="Otherwise, ignore upper bits and fall through" />
+        <sys:Item Key="8498607" Value="Transfer A to X" />
+        <sys:Item Key="8498608" Value="Load weapon name index into A" />
+        <sys:Item Key="8505621" Value="Load mouse X-direction into A" />
+        <sys:Item Key="8505625" Value="Branch if no X-axis movement" />
+        <sys:Item Key="8505639" Value="Compare with value #$01" />
+        <sys:Item Key="8498612" Value="Transfer A to Y" />
+        <sys:Item Key="8498613" Value="Load starting tile offset into A" />
+        <sys:Item Key="8498619" Value="Load selected character index into A" />
+        <sys:Item Key="8498622" Value="Shift A left one bit" />
+        <sys:Item Key="8498623" Value="Transfer A to Y" />
+        <sys:Item Key="8498624" Value="Load character's current armor index into A" />
+        <sys:Item Key="8498627" Value="Shift A left one bit" />
+        <sys:Item Key="8498628" Value="Transfer A to X" />
+        <sys:Item Key="8498629" Value="Load armor name index into A" />
+        <sys:Item Key="8498633" Value="Transfer A to Y" />
+        <sys:Item Key="8498634" Value="Load starting tile offset into A" />
+        <sys:Item Key="8498637" Value="Write armor name beginning at offset" />
+        <sys:Item Key="8498616" Value="Write weapon name beginning at offset" />
+        <sys:Item Key="8502200" Value="Clear carry flag" />
+        <sys:Item Key="8502201" Value="Add value at $1CDD to starting tile offset" />
+        <sys:Item Key="8502204" Value="Branch to $81BBC2" />
+        <sys:Item Key="8502207" Value="Add value at $1CDF to starting tile offset" />
+        <sys:Item Key="8497045" Value="Branch if nothing is highlighted" />
+        <sys:Item Key="8497060" Value="Load item name index into A using X as offset" />
+        <sys:Item Key="8497064" Value="Transfer A to Y" />
+        <sys:Item Key="8497065" Value="Load starting tile offset into A" />
+        <sys:Item Key="8497068" Value="Write item name at starting tile offset" />
+        <sys:Item Key="8497053" Value="Increment Y" />
+        <sys:Item Key="8497050" Value="Highlight left tiles of item" />
+        <sys:Item Key="8497054" Value="Highlight right tiles of item" />
+        <sys:Item Key="8497075" Value="Read data from VRAM into A" />
+        <sys:Item Key="8497078" Value="Read data from VRAM into A" />
+        <sys:Item Key="8497081" Value="Read data from VRAM into X" />
+        <sys:Item Key="8497084" Value="Store Y in VRAM word address" />
+        <sys:Item Key="8497087" Value="Set 14th bit of value in A" />
+        <sys:Item Key="8497090" Value="Store A in VRAM, highlighting top half of item" />
+        <sys:Item Key="8497093" Value="Transfer X to A" />
+        <sys:Item Key="8497094" Value="Set 14th bit of value in A" />
+        <sys:Item Key="8497097" Value="Store A in VRAM, highlighting bottom half of item" />
+        <sys:Item Key="8497100" Value="Return" />
+        <sys:Item Key="8497104" Value="Read data from VRAM into A" />
+        <sys:Item Key="8497107" Value="Read data from VRAM into A" />
+        <sys:Item Key="8497110" Value="Read data from VRAM into X" />
+        <sys:Item Key="8497113" Value="Store Y in VRAM word address" />
+        <sys:Item Key="8497116" Value="Reset 14th bit of value in A" />
+        <sys:Item Key="8497119" Value="Store A in VRAM, unhighlighting top half of item" />
+        <sys:Item Key="8497122" Value="Transfer X to A" />
+        <sys:Item Key="8497123" Value="Reset 14th bit of value in A" />
+        <sys:Item Key="8497126" Value="Store A in VRAM, unhighlighting bottom half of item" />
+        <sys:Item Key="8497129" Value="Return" />
+        <sys:Item Key="8497018" Value="Load value #$81 into A (increment after $2119 write/$213A read; increment address by 64 bytes)" />
+        <sys:Item Key="8497020" Value="Store A in VMAIN" />
+        <sys:Item Key="8497023" Value="Set A to 16-bit mode" />
+        <sys:Item Key="8497025" Value="Load previously highlighted item index into A" />
+        <sys:Item Key="8497029" Value="Branch if nothing was previously highlighted" />
+        <sys:Item Key="8497047" Value="?" />
+        <sys:Item Key="8497057" Value="?" />
       </Comments>
       <Labels>
         <sys:Item Key="8454116">
@@ -3364,16 +3462,16 @@
           <Value exs:type="ns1:Label" Name="Character_Names" Comment="" />
         </sys:Item>
         <sys:Item Key="8500912">
-          <Value exs:type="ns1:Label" Name="Armour_Names" Comment="" />
+          <Value exs:type="ns1:Label" Name="Armor_Names" Comment="" />
         </sys:Item>
         <sys:Item Key="8502377">
-          <Value exs:type="ns1:Label" Name="Book_Text" Comment="" />
+          <Value exs:type="ns1:Label" Name="Book_Pages" Comment="" />
         </sys:Item>
         <sys:Item Key="8519018">
           <Value exs:type="ns1:Label" Name="EMPTY_81FD6A" Comment="" />
         </sys:Item>
         <sys:Item Key="8502200">
-          <Value exs:type="ns1:Label" Name="Draw_Font_1" Comment="" />
+          <Value exs:type="ns1:Label" Name="Print_Text_1CDD" Comment="" />
         </sys:Item>
         <sys:Item Key="8499279">
           <Value exs:type="ns1:Label" Name="Draw_Password_Char" Comment="" />
@@ -3411,14 +3509,443 @@
         <sys:Item Key="8448710">
           <Value exs:type="ns1:Label" Name="Destroy_Horn_of_Boromir" Comment="" />
         </sys:Item>
-        <sys:Item Key="8439221">
-          <Value exs:type="ns1:Label" Name="" Comment="" />
-        </sys:Item>
-        <sys:Item Key="8439222">
-          <Value exs:type="ns1:Label" Name="" Comment="" />
-        </sys:Item>
         <sys:Item Key="8421382">
           <Value exs:type="ns1:Label" Name="EMPTY_808006" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8438309">
+          <Value exs:type="ns1:Label" Name="Weapon_Strength_Table" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8438341">
+          <Value exs:type="ns1:Label" Name="Armor_Defense_Table" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8498606">
+          <Value exs:type="ns1:Label" Name="Print_Weapon_Armor_Name" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8449482">
+          <Value exs:type="ns1:Label" Name="Weapon_Strength_Offset" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8438379">
+          <Value exs:type="ns1:Label" Name="Damage_Enemy" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8438413">
+          <Value exs:type="ns1:Label" Name="Update_Enemy_Health" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8438441">
+          <Value exs:type="ns1:Label" Name="Damage_Ally" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8438438">
+          <Value exs:type="ns1:Label" Name="Damage_Gandalf" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8498584">
+          <Value exs:type="ns1:Label" Name="Print_Weapon_Armor_Info" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8498640">
+          <Value exs:type="ns1:Label" Name="Print_Weapon_Armor_Stats" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500688">
+          <Value exs:type="ns1:Label" Name="OLD_DAGGER" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500702">
+          <Value exs:type="ns1:Label" Name="DAGGER" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500716">
+          <Value exs:type="ns1:Label" Name="BARROW_DAGGER" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500730">
+          <Value exs:type="ns1:Label" Name="TROLL_DAGGER" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500744">
+          <Value exs:type="ns1:Label" Name="ELVISH_DAGGER" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500758">
+          <Value exs:type="ns1:Label" Name="STING" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500772">
+          <Value exs:type="ns1:Label" Name="LIGHT_SWORD" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500786">
+          <Value exs:type="ns1:Label" Name="SWORD" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500800">
+          <Value exs:type="ns1:Label" Name="NAMED_SWORD" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500814">
+          <Value exs:type="ns1:Label" Name="ELVISH_SWORD" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500828">
+          <Value exs:type="ns1:Label" Name="ANDURIL" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500842">
+          <Value exs:type="ns1:Label" Name="GLAMDAR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500856">
+          <Value exs:type="ns1:Label" Name="LONG_BOW" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500870">
+          <Value exs:type="ns1:Label" Name="AXE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500884">
+          <Value exs:type="ns1:Label" Name="HEAVY_AXE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500898">
+          <Value exs:type="ns1:Label" Name="BATTLE_AXE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499628">
+          <Value exs:type="ns1:Label" Name="TOMB_KEY_1" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499647">
+          <Value exs:type="ns1:Label" Name="MORIA_KEY_1" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499666">
+          <Value exs:type="ns1:Label" Name="RED_GATEWAY_GEM" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499685">
+          <Value exs:type="ns1:Label" Name="ELVISH_BOOK" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499704">
+          <Value exs:type="ns1:Label" Name="MAGIC_ROCK" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499723">
+          <Value exs:type="ns1:Label" Name="BOTTLE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499742">
+          <Value exs:type="ns1:Label" Name="LOST_AMULET_1" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499761">
+          <Value exs:type="ns1:Label" Name="MAGGOT_NOTE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499780">
+          <Value exs:type="ns1:Label" Name="SCROLL_OF_FLOI" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499799">
+          <Value exs:type="ns1:Label" Name="GATE_KEY" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499818">
+          <Value exs:type="ns1:Label" Name="MORIA_KEY_2" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499837">
+          <Value exs:type="ns1:Label" Name="YELLOW_GATEWAY_GEM" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499856">
+          <Value exs:type="ns1:Label" Name="BOOK_OF_THE_AGES" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499875">
+          <Value exs:type="ns1:Label" Name="GOLD_PIECE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499894">
+          <Value exs:type="ns1:Label" Name="JUG_OF_HONEY" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499913">
+          <Value exs:type="ns1:Label" Name="LOST_AMULET_2" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499932">
+          <Value exs:type="ns1:Label" Name="OLD_WILLOW_NOTE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499951">
+          <Value exs:type="ns1:Label" Name="SCROLL_OF_OIN" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499970">
+          <Value exs:type="ns1:Label" Name="TOMB_KEY_2" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499989">
+          <Value exs:type="ns1:Label" Name="MORIA_KEY_3" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500008">
+          <Value exs:type="ns1:Label" Name="GATEWAY_KEYSTONE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500027">
+          <Value exs:type="ns1:Label" Name="BOOK_OF_MAZARBUL" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500046">
+          <Value exs:type="ns1:Label" Name="GOLD_PIECES_1" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500065">
+          <Value exs:type="ns1:Label" Name="EYE_GLASSES" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500084">
+          <Value exs:type="ns1:Label" Name="LOST_AMULET_3" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500103">
+          <Value exs:type="ns1:Label" Name="NOTE_FROM_GANDALF" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500122">
+          <Value exs:type="ns1:Label" Name="COLOR_SCROLL" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500141">
+          <Value exs:type="ns1:Label" Name="TOMB_KEY_3" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500160">
+          <Value exs:type="ns1:Label" Name="MORIA_KEY_4" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500179">
+          <Value exs:type="ns1:Label" Name="GREEN_GATEWAY_GEM" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500198">
+          <Value exs:type="ns1:Label" Name="BILBO_DIARY" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500217">
+          <Value exs:type="ns1:Label" Name="GOLD_PIECES_2" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500236">
+          <Value exs:type="ns1:Label" Name="HEALING_MOSS" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500255">
+          <Value exs:type="ns1:Label" Name="LOST_AMULET_4" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500274">
+          <Value exs:type="ns1:Label" Name="LETTER_TO_ELROND" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500293">
+          <Value exs:type="ns1:Label" Name="KEYSTONE_SCROLL" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500312">
+          <Value exs:type="ns1:Label" Name="TOMB_KEY_4" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500331">
+          <Value exs:type="ns1:Label" Name="BOAT_OAR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500350">
+          <Value exs:type="ns1:Label" Name="PURPLE_GATEWAY_GEM" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500369">
+          <Value exs:type="ns1:Label" Name="JEWELED_RING" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500388">
+          <Value exs:type="ns1:Label" Name="GOLD_PIECES_3" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500407">
+          <Value exs:type="ns1:Label" Name="ATHELAS_MAJOR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500426">
+          <Value exs:type="ns1:Label" Name="LOST_AMULET_5" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500445">
+          <Value exs:type="ns1:Label" Name="HORN_OF_BOROMIR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500464">
+          <Value exs:type="ns1:Label" Name="LONG_BOW_1" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500483">
+          <Value exs:type="ns1:Label" Name="KEY_TO_BREE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500502">
+          <Value exs:type="ns1:Label" Name="HEALING_MUSHROOM" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500521">
+          <Value exs:type="ns1:Label" Name="VIOLET_GATEWAY_GEM" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500540">
+          <Value exs:type="ns1:Label" Name="THE_RING" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500559">
+          <Value exs:type="ns1:Label" Name="ATHELAS_MINOR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500578">
+          <Value exs:type="ns1:Label" Name="HEALING_FRUIT" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500597">
+          <Value exs:type="ns1:Label" Name="LOST_AMULET_6" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500616">
+          <Value exs:type="ns1:Label" Name="MAGIC_FERN" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500635">
+          <Value exs:type="ns1:Label" Name="ORB_OF_DREXLE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500924">
+          <Value exs:type="ns1:Label" Name="CLOTH_CLOAK" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500938">
+          <Value exs:type="ns1:Label" Name="PADDED_ARMOR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500952">
+          <Value exs:type="ns1:Label" Name="LEATHER_ARMOR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500966">
+          <Value exs:type="ns1:Label" Name="CHAIN_MAIL" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500980">
+          <Value exs:type="ns1:Label" Name="PLATE_MAIL" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8500994">
+          <Value exs:type="ns1:Label" Name="MITHRIL_ARMOR" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501024">
+          <Value exs:type="ns1:Label" Name="SAMWISE_GAMGEE" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501041">
+          <Value exs:type="ns1:Label" Name="MERRY_BRANDYBUCK" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501058">
+          <Value exs:type="ns1:Label" Name="FRODO_BAGGINS" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501075">
+          <Value exs:type="ns1:Label" Name="PIPPIN_TOOK" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501092">
+          <Value exs:type="ns1:Label" Name="LEGOLAS" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501109">
+          <Value exs:type="ns1:Label" Name="ARAGORN" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501126">
+          <Value exs:type="ns1:Label" Name="GIMLI" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8501143">
+          <Value exs:type="ns1:Label" Name="GANDALF" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499362">
+          <Value exs:type="ns1:Label" Name="ON" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499366">
+          <Value exs:type="ns1:Label" Name="OFF" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502457">
+          <Value exs:type="ns1:Label" Name="Page_00_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502498">
+          <Value exs:type="ns1:Label" Name="Page_01_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502567">
+          <Value exs:type="ns1:Label" Name="Page_02_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502590">
+          <Value exs:type="ns1:Label" Name="Page_03_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502703">
+          <Value exs:type="ns1:Label" Name="Page_04_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502768">
+          <Value exs:type="ns1:Label" Name="Page_05_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502871">
+          <Value exs:type="ns1:Label" Name="Page_06_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502981">
+          <Value exs:type="ns1:Label" Name="Page_07_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503086">
+          <Value exs:type="ns1:Label" Name="Page_08_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503141">
+          <Value exs:type="ns1:Label" Name="Page_09_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503202">
+          <Value exs:type="ns1:Label" Name="Page_10_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503245">
+          <Value exs:type="ns1:Label" Name="Page_11_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503294">
+          <Value exs:type="ns1:Label" Name="Page_12_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503354">
+          <Value exs:type="ns1:Label" Name="Page_13_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503418">
+          <Value exs:type="ns1:Label" Name="Page_14_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503475">
+          <Value exs:type="ns1:Label" Name="Page_15_Intro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503533">
+          <Value exs:type="ns1:Label" Name="Page_16_Blank" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503539">
+          <Value exs:type="ns1:Label" Name="Page_17_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503573">
+          <Value exs:type="ns1:Label" Name="Page_18_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503605">
+          <Value exs:type="ns1:Label" Name="Page_19_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503652">
+          <Value exs:type="ns1:Label" Name="Page_20_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503708">
+          <Value exs:type="ns1:Label" Name="Page_21_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503756">
+          <Value exs:type="ns1:Label" Name="Page_22_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503819">
+          <Value exs:type="ns1:Label" Name="Page_23_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503889">
+          <Value exs:type="ns1:Label" Name="Page_24_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8503951">
+          <Value exs:type="ns1:Label" Name="Page_25_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504002">
+          <Value exs:type="ns1:Label" Name="Page_26_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504040">
+          <Value exs:type="ns1:Label" Name="Page_27_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504069">
+          <Value exs:type="ns1:Label" Name="Page_28_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504097">
+          <Value exs:type="ns1:Label" Name="Page_29_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504134">
+          <Value exs:type="ns1:Label" Name="Page_30_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504168">
+          <Value exs:type="ns1:Label" Name="Page_31_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504206">
+          <Value exs:type="ns1:Label" Name="Page_32_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504235">
+          <Value exs:type="ns1:Label" Name="Page_33_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504269">
+          <Value exs:type="ns1:Label" Name="Page_34_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504298">
+          <Value exs:type="ns1:Label" Name="Page_35_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504326">
+          <Value exs:type="ns1:Label" Name="Page_36_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504356">
+          <Value exs:type="ns1:Label" Name="Page_37_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8504424">
+          <Value exs:type="ns1:Label" Name="Page_38_Outro" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8505612">
+          <Value exs:type="ns1:Label" Name="Continue_Read_Mouse" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8505619">
+          <Value exs:type="ns1:Label" Name="Continue_Read_Mouse_X" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8505647">
+          <Value exs:type="ns1:Label" Name="Continue_Read_Mouse_Y" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8505679">
+          <Value exs:type="ns1:Label" Name="Continue_Return_Mouse" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8502206">
+          <Value exs:type="ns1:Label" Name="Print_Text_1CDF" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8497071">
+          <Value exs:type="ns1:Label" Name="No_Item_Highlighted" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8497072">
+          <Value exs:type="ns1:Label" Name="Set_Item_Highlight" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8497101">
+          <Value exs:type="ns1:Label" Name="Reset_Item_Highlight" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8497016">
+          <Value exs:type="ns1:Label" Name="Unhighlight_Prev_Item" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8497041">
+          <Value exs:type="ns1:Label" Name="Highlight_Curr_Item" Comment="" />
         </sys:Item>
       </Labels>
       <RomBytes>
@@ -40787,531 +41314,533 @@ r 85 A
 .08
 .08
 +Q8
-Ag
-A
-Ag
-A
-Ag
-A
-Ag
-A
-A
-A
-T
-T
-A
-A
-T
-T
-T
-A
-+E8
-+08
-+08
-+08
-.08
-+I8
-.08
-+08
-.08
-+08
-.08
-.08
-+E8
-.08
-+08
-.08
-+D8
-.D8
-+D8
-.D8
-.D8
-+D8
-.D8
-+D8
-.D8
-.D8
-+D8
-.D8
-+D8
-.D8
-.D8
-+D8
-.D8
-+08
-.08
-.08
-+08
-.08
-+E8
-.08
-.08
-+08
-.08
-.08
-+08
-.08
-+08
-.08
-+08
-.08
-.08
-+I8
-.08
-+08
-.08
-.08
-+08
-+08
-.08
-+08
-.08
-+08
-.08
-+E8
-.08
-.08
-+08
-.08
-+08
-.08
-.08
-+08
-.08
-+D8
-.D8
-+D8
-.D8
-.D8
-+D8
-.D8
-+D8
-.D8
-.D8
-+D8
-.D8
-+08
-.08
-+08
-+08
-.08
-.08
-+08
-.08
-+08
-.08
-+08
-.08
-.08
-+I8
-.08
-+08
-.08
-.08
-+08
-.08
-.08
-+08
-.08
-.08
-+08
-+08
-.08
-+08
-.08
-.08
-+08
-+08
-.08
-.08
-+08
-.08
-+08
-.08
-+D8
-.D8
-+D8
-+D8
-.D8
-.D8
-+D8
-.D8
-+D8
-.D8
-+D8
-.D8
-.D8
-+D8
-.D8
-+E8
-.08
-+08
-+08
-.08
-.08
-+08
-.08
-+08
-+I8
-.08
-+Q8
-Ag
-r 107 A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-r 18 T
-A
-Ag
-r 33 A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-Ag
-r 11 A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-r 13 T
-A
-Ag
-r 15 A
-r 16 T
-A
-r 16 T
-A
-r 16 T
-A
-r 16 T
-A
-r 16 T
-A
-r 16 T
-A
-r 16 T
-A
-r 16 T
-A
-Ag
-r 1039 A
-+E8
-+08
-.08
-.08
-+Y8
-.08
-+E8
-+08
-.08
-.08
-+E8
-.08
-.08
-+08
-.08
-.08
-.08
-+08
-.08
-+C8
-.C8
-+C8
-.C8
-.C8
-+C8
-.C8
-+08
-.08
-.08
-+08
-.08
-+08
-.08
-+08
-.08
-.08
-+E8
-.08
-.08
-+08
-.08
-+08
-.08
-.08
-+I8
-.08
-+08
-+08
-+08
-.08
-.08
-.08
-+08
-.08
-.08
-+08
-.08
-.08
-+08
-+Y8
-.08
-+E8
-.08
-+08
-.08
-.08
-.08
-+08
-+08
-.08
-.08
-+08
-.08
-.08
-+08
-.08
-.08
-+E8
-.08
-.08
-+08
-.08
-+08
-.08
-.08
-+I8
-.08
-+08
-+08
-+08
-+08
-.08
-.08
-.08
-+08
-.08
-.08
-+08
-.08
-.08
-+08
-+Y8
-.08
-+E8
-.08
-+Q8
-+E8
-.08
-.08
-.08
-+08
-+08
-+08
-.08
-.08
-.08
-+08
-+08
-.08
-.08
-.08
-+08
-+08
-+08
-.08
-.08
-+08
-.08
-.08
-.08
-+E8
-.08
-.08
-+08
-.08
-.08
-.08
-+I8
-.08
-.08
-+08
-.08
-.08
-.08
-+08
-+08
-.08
-.08
-+08
-.08
-.08
-.08
-+08
-+08
-.08
-+08
-.08
-.08
-.08
-+08
-+08
-.08
-+08
-.08
-.08
-.08
-+08
-+08
-.08
-.08
-.08
-+I8
-.08
-+08
-.08
-.08
-+Q8
 Ag81
-r 81 A081
+A081
+Ag81
+A081
+Ag81
+A081
+Eg81
+E081
+E081
+E081
+T081
+T081
+T081
+A081
+T081
+T081
+T081
+A081
++E8
++08
++08
++08
+.08
++I8
+.08
++08
+.08
++08
+.08
+.08
++E8
+.08
++08
+.08
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++08
+.08
+.08
++08
+.08
++E8
+.08
+.08
++08
+.08
+.08
++08
+.08
++08
+.08
++08
+.08
+.08
++I8
+.08
++08
+.08
+.08
++08
++08
+.08
++08
+.08
++08
+.08
++E8
+.08
+.08
++08
+.08
++08
+.08
+.08
++08
+.08
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++08
+.08
++08
++08
+.08
+.08
++08
+.08
++08
+.08
++08
+.08
+.08
++I8
+.08
++08
+.08
+.08
++08
+.08
+.08
++08
+.08
+.08
++08
++08
+.08
++08
+.08
+.08
++08
++08
+.08
+.08
++08
+.08
++08
+.08
++D8
+.D8
++D8
++D8
+.D8
+.D8
++D8
+.D8
++D8
+.D8
++D8
+.D8
+.D8
++D8
+.D8
++E8
+.08
++08
++08
+.08
+.08
++08
+.08
++08
++I8
+.08
++Q8
+Eg81
+r 107 E081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+r 18 T081
+A081
+Eg81
+r 33 E081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+Eg81
+r 11 E081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+r 13 T081
+A081
+Eg81
+r 15 E081
+r 16 T081
+A081
+r 16 T081
+A081
+r 16 T081
+A081
+r 16 T081
+A081
+r 16 T081
+A081
+r 16 T081
+A081
+r 16 T081
+A081
+r 16 T081
+A081
+Ag81
+r 1039 A081
++E8
++08
+.08
+.08
++Y8
+.08
++E8
++08
+.08
+.08
++E8
+.08
+.08
++08
+.08
+.08
+.08
++08
+.08
++C8
+.C8
++C8
+.C8
+.C8
++C8
+.C8
++08
+.08
+.08
++08
+.08
++08
+.08
++08
+.08
+.08
++E8
+.08
+.08
++08
+.08
++08
+.08
+.08
++I8
+.08
++08
++08
++08
+.08
+.08
+.08
++08
+.08
+.08
++08
+.08
+.08
++08
++Y8
+.08
++E8
+.08
++08
+.08
+.08
+.08
++08
++08
+.08
+.08
++08
+.08
+.08
++08
+.08
+.08
++E8
+.08
+.08
++08
+.08
++08
+.08
+.08
++I8
+.08
++08
++08
++08
++08
+.08
+.08
+.08
++08
+.08
+.08
++08
+.08
+.08
++08
++Y8
+.08
++E8
+.08
++Q8
++E8
+.08
+.08
+.08
++08
++08
++08
+.08
+.08
+.08
++08
++08
+.08
+.08
+.08
++08
++08
++08
+.08
+.08
++08
+.08
+.08
+.08
++E8
+.08
+.08
++08
+.08
+.08
+.08
++I8
+.08
+.08
++08
+.08
+.08
+.08
++08
++08
+.08
+.08
++08
+.08
+.08
+.08
++08
++08
+.08
++08
+.08
+.08
+.08
++08
++08
+.08
++08
+.08
+.08
+.08
++08
++08
+.08
+.08
+.08
++I8
+.08
++08
+.08
+.08
++Q8
+Eg81
+r 79 E081
+A081
+A081
 r 10 T081
 A081
 T081
@@ -41612,8 +42141,7 @@ r 9 T081
 A081
 T081
 A081
-r 14 T081
-A081
+r 15 T081
 A081
 A081
 A081
