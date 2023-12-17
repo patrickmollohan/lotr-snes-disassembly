@@ -1,0 +1,8 @@
+incsrc "./main.asm"
+incsrc "./mods/enable_fastrom.asm"
+incsrc "./mods/moria_password_fix.asm"
+incsrc "./mods/fast_mouse_bios.asm"
+incsrc "./mods/misc_optimisations.asm"
+incsrc "./mods/rename_items.asm"
+incsrc "./mods/rename_weapons.asm"
+incsrc "./mods/rename_characters.asm"
