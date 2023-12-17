@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="101" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
-  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="42901">
-    <LogWriterSettings Format="%label:-22% %code:37%; [%pc%|%bytes%|%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" OutputExtraWhitespace="true" RomSizeOverride="-1" FileOrFolderOutPath="export\" OutputToString="false" ErrorFilename="errors.txt" />
+<ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="102" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="44598">
+    <LogWriterSettings Format="%label:2%%code:40%; [%pc%|%bytes%|%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" NewLine="true" OutputExtraWhitespace="true" GenerateFullLine="false" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" RomSizeOverride="-1" FileOrFolderOutPath="src\" OutputToString="false" ErrorFilename="errors.txt" />
+    <ProjectSettings exs:member="">
+      <RomBytesOutputFormatSettings CompressGroupBlock="true" CompressUsingTable1="true" InsertCommentIntoOutputLinesEveryNBytes="16384" />
+    </ProjectSettings>
     <Data RomMapMode="LoRom" RomSpeed="FastRom">
       <Comments AutomaticallyCaptureSubItems="false" HistoryLevels="50">
         <sys:Item Key="8421376" Value="Reached upon initial loading" />
@@ -155,13 +158,13 @@
         <sys:Item Key="8423786" Value="Reached at copyright screen" />
         <sys:Item Key="8423809" Value="Reached at copyright screen" />
         <sys:Item Key="8423858" Value="Reached at copyright screen" />
-        <sys:Item Key="8423951" Value="Reached at copyright screen" />
-        <sys:Item Key="8423954" Value="Reached at copyright screen" />
+        <sys:Item Key="8423951" Value="Store current processor state in stack" />
+        <sys:Item Key="8423954" Value="Load screen and joypad status into A" />
         <sys:Item Key="8423963" Value="Reached at copyright screen" />
         <sys:Item Key="8423966" Value="Reached at copyright screen" />
         <sys:Item Key="8424043" Value="Reached at copyright screen" />
-        <sys:Item Key="8424128" Value="Reached at copyright screen" />
-        <sys:Item Key="8424133" Value="Reached at copyright screen" />
+        <sys:Item Key="8424128" Value="Load value 15 into A" />
+        <sys:Item Key="8424133" Value="Wait for VBlank" />
         <sys:Item Key="8424577" Value="Reached at copyright screen" />
         <sys:Item Key="8424616" Value="Reached at copyright screen" />
         <sys:Item Key="8424642" Value="Reached at copyright screen" />
@@ -170,9 +173,9 @@
         <sys:Item Key="8424904" Value="Reached at copyright screen" />
         <sys:Item Key="8424919" Value="Reached at copyright screen" />
         <sys:Item Key="8424932" Value="Reached at copyright screen" />
-        <sys:Item Key="8425001" Value="Reached at copyright screen" />
-        <sys:Item Key="8425002" Value="Reached at copyright screen" />
-        <sys:Item Key="8425005" Value="Reached at copyright screen" />
+        <sys:Item Key="8425001" Value="Store the state of the X register in the stack" />
+        <sys:Item Key="8425002" Value="Load value 256 into X" />
+        <sys:Item Key="8425005" Value="Decrement X" />
         <sys:Item Key="8425013" Value="Reached at copyright screen" />
         <sys:Item Key="8425219" Value="Reached at copyright screen" />
         <sys:Item Key="8425222" Value="Reached at copyright screen" />
@@ -460,8 +463,8 @@
         <sys:Item Key="8423771" Value="Reached at Interplay logo" />
         <sys:Item Key="8423776" Value="Reached at Interplay logo" />
         <sys:Item Key="8424172" Value="Reached at Interplay logo" />
-        <sys:Item Key="8424251" Value="Reached at Interplay logo" />
-        <sys:Item Key="8424253" Value="Reached at Interplay logo" />
+        <sys:Item Key="8424251" Value="Store 0 in temp" />
+        <sys:Item Key="8424253" Value="Wait for VBlank" />
         <sys:Item Key="8424315" Value="Reached at Interplay logo" />
         <sys:Item Key="8424354" Value="Reached at Interplay logo" />
         <sys:Item Key="8424357" Value="Reached at Interplay logo" />
@@ -1401,7 +1404,7 @@
         <sys:Item Key="8450535" Value="Reached when &quot;X&quot; pressed (toggle status bar) in game (status bar enabled)" />
         <sys:Item Key="8450597" Value="Reached when &quot;X&quot; pressed (toggle status bar) in game (status bar enabled)" />
         <sys:Item Key="8450611" Value="Reached when &quot;X&quot; pressed (toggle status bar) in game (status bar enabled)" />
-        <sys:Item Key="8450685" Value="Reached when &quot;X&quot; pressed (toggle status bar) in game (status bar enabled)" />
+        <sys:Item Key="8450685" Value="Set A to 8-bit mode" />
         <sys:Item Key="8450714" Value="Reached when &quot;X&quot; pressed (toggle status bar) in game (status bar enabled)" />
         <sys:Item Key="8450739" Value="Reached when &quot;X&quot; pressed (toggle status bar) in game (status bar enabled)" />
         <sys:Item Key="8450753" Value="Reached when &quot;X&quot; pressed (toggle status bar) in game (status bar enabled)" />
@@ -1479,10 +1482,10 @@
         <sys:Item Key="8497041" Value="Load currently highlighted item into A" />
         <sys:Item Key="8497071" Value="Return" />
         <sys:Item Key="8497072" Value="Store Y in VRAM word address" />
-        <sys:Item Key="8497130" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8497140" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8497148" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8497160" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
+        <sys:Item Key="8497130" Value="Load currently selected item index into A" />
+        <sys:Item Key="8497140" Value="Ignore last 7 bits of value in A" />
+        <sys:Item Key="8497148" Value="Load temp into A" />
+        <sys:Item Key="8497160" Value="Store X into temp" />
         <sys:Item Key="8497196" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8497208" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8497226" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
@@ -1518,7 +1521,7 @@
         <sys:Item Key="8498584" Value="Load selected character index" />
         <sys:Item Key="8498606" Value="Shift A left one bit" />
         <sys:Item Key="8498640" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
-        <sys:Item Key="8498727" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
+        <sys:Item Key="8498727" Value="Store A into $EC" />
         <sys:Item Key="8498757" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8498763" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
         <sys:Item Key="8498797" Value="Reached when &quot;Select&quot; pressed (stats screen)" />
@@ -3224,13 +3227,129 @@
         <sys:Item Key="8497123" Value="Reset 14th bit of value in A" />
         <sys:Item Key="8497126" Value="Store A in VRAM, unhighlighting bottom half of item" />
         <sys:Item Key="8497129" Value="Return" />
-        <sys:Item Key="8497018" Value="Load value #$81 into A (increment after $2119 write/$213A read; increment address by 64 bytes)" />
+        <sys:Item Key="8497018" Value="Load value #$81 into A (increment after $2119 write/$213A read; increment address by four bytes)" />
         <sys:Item Key="8497020" Value="Store A in VMAIN" />
         <sys:Item Key="8497023" Value="Set A to 16-bit mode" />
         <sys:Item Key="8497025" Value="Load previously highlighted item index into A" />
         <sys:Item Key="8497029" Value="Branch if nothing was previously highlighted" />
         <sys:Item Key="8497047" Value="?" />
         <sys:Item Key="8497057" Value="?" />
+        <sys:Item Key="8497134" Value="Branch if an item is currently selected" />
+        <sys:Item Key="8497136" Value="Otherwise load 0 into X" />
+        <sys:Item Key="8497139" Value="Return" />
+        <sys:Item Key="8497143" Value="Store A into temp" />
+        <sys:Item Key="8497145" Value="Load 0 into X" />
+        <sys:Item Key="8428371" Value="Something to do with items in the inventory" />
+        <sys:Item Key="8497150" Value="And value in A with value in table" />
+        <sys:Item Key="8497154" Value="Branch if it is a match" />
+        <sys:Item Key="8497156" Value="Increment X" />
+        <sys:Item Key="8497157" Value="Increment X" />
+        <sys:Item Key="8497158" Value="Loop back to start" />
+        <sys:Item Key="8497162" Value="Load currently selected item index into A" />
+        <sys:Item Key="8497166" Value="Ignore first 9 bits of value in A" />
+        <sys:Item Key="8497169" Value="Exchange B and A" />
+        <sys:Item Key="8497170" Value="Transfer A to X" />
+        <sys:Item Key="8497171" Value="Load value from table into A using X as offset" />
+        <sys:Item Key="8497175" Value="Clear carry flag" />
+        <sys:Item Key="8497176" Value="Add value from temp into A" />
+        <sys:Item Key="8497178" Value="Transfer A to X" />
+        <sys:Item Key="8497179" Value="Return" />
+        <sys:Item Key="8497180" Value="Something to do with items" />
+        <sys:Item Key="8450687" Value="Load value #$80 into A (increment after $2119 write/$213A read; increment address by two bytes)" />
+        <sys:Item Key="8450689" Value="Store A in VMAIN" />
+        <sys:Item Key="8450692" Value="Set A to 16-bit mode" />
+        <sys:Item Key="8450694" Value="Load starting tile offset into A" />
+        <sys:Item Key="8450697" Value="Clear carry flag" />
+        <sys:Item Key="8423952" Value="Set A to 8-bit mode" />
+        <sys:Item Key="8423957" Value="Check if VBlank flag is set" />
+        <sys:Item Key="8423959" Value="Loop if VBlank flag is not set" />
+        <sys:Item Key="8423961" Value="Restore previous processor state from stack" />
+        <sys:Item Key="8423962" Value="Return" />
+        <sys:Item Key="8423973" Value="Store current processor state in stack" />
+        <sys:Item Key="8423974" Value="Set A to 8-bit mode" />
+        <sys:Item Key="8423976" Value="Load screen and joypad status into A" />
+        <sys:Item Key="8423979" Value="Check if VBlank flag is set" />
+        <sys:Item Key="8423981" Value="Loop if VBlank flag is set" />
+        <sys:Item Key="8423983" Value="Restore previous processor state from stack" />
+        <sys:Item Key="8423984" Value="Return" />
+        <sys:Item Key="8423985" Value="Store current processor state in stack" />
+        <sys:Item Key="8423986" Value="Set A to 8-bit mode" />
+        <sys:Item Key="8423988" Value="Load screen and joypad status into A" />
+        <sys:Item Key="8423991" Value="Check if HBlank flag is set" />
+        <sys:Item Key="8423993" Value="Loop if HBlank flag is not set" />
+        <sys:Item Key="8423995" Value="Load screen and joypad status into A" />
+        <sys:Item Key="8423998" Value="Check if HBlank flag is set" />
+        <sys:Item Key="8424000" Value="Loop if HBlank flag is set" />
+        <sys:Item Key="8424002" Value="Restore previous processor state from stack" />
+        <sys:Item Key="8424003" Value="Return" />
+        <sys:Item Key="8424256" Value="Set A, X, and Y to 8-bit mode" />
+        <sys:Item Key="8424258" Value="Load value from temp into A" />
+        <sys:Item Key="8424260" Value="Shift A left one bit" />
+        <sys:Item Key="8424261" Value="Shift A left one bit" />
+        <sys:Item Key="8424262" Value="Shift A left one bit" />
+        <sys:Item Key="8424263" Value="Shift A left one bit" />
+        <sys:Item Key="8424264" Value="Set first two bits of A (enable BG1 + BG2 mosaic)" />
+        <sys:Item Key="8424266" Value="Store A into mosaic register" />
+        <sys:Item Key="8424269" Value="Load 15 into A (full brightness)" />
+        <sys:Item Key="8424271" Value="Set carry flag" />
+        <sys:Item Key="8424272" Value="Subtract value in temp from A" />
+        <sys:Item Key="8424274" Value="Store brightness value in $0400" />
+        <sys:Item Key="8424277" Value="Set A, X, and Y to 16-bit mode" />
+        <sys:Item Key="8424279" Value="Load value 96 into Y" />
+        <sys:Item Key="8424282" Value="Delay for 96 iterations (3 frames)" />
+        <sys:Item Key="8424285" Value="Increment temp loop count" />
+        <sys:Item Key="8424287" Value="Load temp loop count into A" />
+        <sys:Item Key="8424289" Value="Compare A with 16" />
+        <sys:Item Key="8424292" Value="Loop if A &lt; 16" />
+        <sys:Item Key="8424294" Value="Set A to 8-bit mode" />
+        <sys:Item Key="8424296" Value="Load brightness value into A" />
+        <sys:Item Key="8424299" Value="Set last bit of A (force blanking)" />
+        <sys:Item Key="8424301" Value="Store brightness value in $0400" />
+        <sys:Item Key="8424304" Value="Store brightness value in screen display register" />
+        <sys:Item Key="8424307" Value="Load value 3 into A (enable BG1 + BG2 mosaic)" />
+        <sys:Item Key="8424309" Value="Store A into mosaic register" />
+        <sys:Item Key="8424312" Value="Set A to 16-bit mode" />
+        <sys:Item Key="8424314" Value="Return" />
+        <sys:Item Key="8425006" Value="Loop if X is not 0" />
+        <sys:Item Key="8425008" Value="Decrement Y" />
+        <sys:Item Key="8425009" Value="Loop if Y is not 0" />
+        <sys:Item Key="8425011" Value="Restore the previous state of the X register from the stack" />
+        <sys:Item Key="8425012" Value="Return" />
+        <sys:Item Key="8424131" Value="Store A into temp" />
+        <sys:Item Key="8424136" Value="Set A, X, and Y to 8-bit mode" />
+        <sys:Item Key="8424138" Value="Load value from temp into A" />
+        <sys:Item Key="8424140" Value="Shift A left one bit" />
+        <sys:Item Key="8424141" Value="Shift A left one bit" />
+        <sys:Item Key="8424142" Value="Shift A left one bit" />
+        <sys:Item Key="8424143" Value="Shift A left one bit" />
+        <sys:Item Key="8424144" Value="Set first two bits of A (enable BG1 + BG2 mosaic)" />
+        <sys:Item Key="8424146" Value="Store A into mosaic register" />
+        <sys:Item Key="8424149" Value="Load 15 into A (full brightness)" />
+        <sys:Item Key="8424151" Value="Set carry flag" />
+        <sys:Item Key="8424152" Value="Subtract value in temp from A" />
+        <sys:Item Key="8424154" Value="Store brightness value in $0400" />
+        <sys:Item Key="8424157" Value="Set A, X, and Y to 16-bit mode" />
+        <sys:Item Key="8424159" Value="Load value 96 into Y" />
+        <sys:Item Key="8424162" Value="Delay for 96 iterations (3 frames)" />
+        <sys:Item Key="8424165" Value="Decrement temp loop count" />
+        <sys:Item Key="8424167" Value="Load temp loop count into A" />
+        <sys:Item Key="8424169" Value="Loop if A &gt;= 15" />
+        <sys:Item Key="8424171" Value="Return" />
+        <sys:Item Key="8498729" Value="Load 1 into A" />
+        <sys:Item Key="8498732" Value="Store A into $EE" />
+        <sys:Item Key="8498734" Value="Set A to 8-bit mode" />
+        <sys:Item Key="8498736" Value="Load #$80 into A (increment after writing $2119 or reading $213A, increment by 1 word)" />
+        <sys:Item Key="8498738" Value="Store A into VMAIN register" />
+        <sys:Item Key="8498741" Value="Set A to 16-bit mode" />
+        <sys:Item Key="8498743" Value="Load 8 into X" />
+        <sys:Item Key="8498746" Value="Load #$00A4 into A" />
+        <sys:Item Key="8498749" Value="Clear carry flag" />
+        <sys:Item Key="8498750" Value="Add value at $1CDF to starting tile offset" />
+        <sys:Item Key="8498753" Value="Store A into $0214" />
+        <sys:Item Key="8498760" Value="Optimisation: change to LDY.W #$0008" />
+        <sys:Item Key="8498774" Value="Optimisation: change to DEY" />
+        <sys:Item Key="8498775" Value="Optimisation: delete" />
+        <sys:Item Key="8498776" Value="Optimisation: delete" />
       </Comments>
       <Labels>
         <sys:Item Key="8454116">
@@ -3947,9 +4066,87 @@
         <sys:Item Key="8497041">
           <Value exs:type="ns1:Label" Name="Highlight_Curr_Item" Comment="" />
         </sys:Item>
+        <sys:Item Key="8497130">
+          <Value exs:type="ns1:Label" Name="Get_Item_Name_Offset" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8497148">
+          <Value exs:type="ns1:Label" Name="Find_Matching_Item" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8450685">
+          <Value exs:type="ns1:Label" Name="Print_Status_Bar_Name" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499109">
+          <Value exs:type="ns1:Label" Name="Unhighlight_Prev_Character" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499114">
+          <Value exs:type="ns1:Label" Name="Fade_Character_Out" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499192">
+          <Value exs:type="ns1:Label" Name="Highlight_Curr_Character" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499197">
+          <Value exs:type="ns1:Label" Name="Fade_Character_In" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8499198">
+          <Value exs:type="ns1:Label" Name="" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8424133">
+          <Value exs:type="ns1:Label" Name="Fade_Screen_In_Loop" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8424253">
+          <Value exs:type="ns1:Label" Name="Fade_Screen_Out_Loop" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8424128">
+          <Value exs:type="ns1:Label" Name="Fade_Screen_In" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8424251">
+          <Value exs:type="ns1:Label" Name="Fade_Screen_Out" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423951">
+          <Value exs:type="ns1:Label" Name="Wait_For_VBlank" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423954">
+          <Value exs:type="ns1:Label" Name="Wait_For_VBlank_Loop" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423973">
+          <Value exs:type="ns1:Label" Name="Wait_For_Not_VBlank" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423976">
+          <Value exs:type="ns1:Label" Name="Wait_For_Not_VBlank_Loop" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423985">
+          <Value exs:type="ns1:Label" Name="Wait_For_HBlank" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423988">
+          <Value exs:type="ns1:Label" Name="Wait_For_HBlank_Loop" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8423995">
+          <Value exs:type="ns1:Label" Name="Wait_For_Not_HBlank_Loop" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8425001">
+          <Value exs:type="ns1:Label" Name="Delay" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8425002">
+          <Value exs:type="ns1:Label" Name="Delay_Loop_DEY" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8425005">
+          <Value exs:type="ns1:Label" Name="Delay_Loop_DEX" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8498727">
+          <Value exs:type="ns1:Label" Name="VRAM_Load_Portrait" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8498747">
+          <Value exs:type="ns1:Label" Name="" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8498757">
+          <Value exs:type="ns1:Label" Name="VRAM_Load_Portrait_Setup" Comment="" />
+        </sys:Item>
+        <sys:Item Key="8498763">
+          <Value exs:type="ns1:Label" Name="VRAM_Load_Portrait_Loop" Comment="" />
+        </sys:Item>
       </Labels>
       <RomBytes>
-version:200,compress_groupblocks,compress_table_1
+version:201,compress_groupblocks,compress_table_1
 +D8
 +D8
 +b8
@@ -19634,6 +19831,7 @@ r 8 E08
 .08
 +E8
 .08
+;offset=004000
 +I8
 .08
 +I8
@@ -33815,6 +34013,7 @@ B08
 r 31 E08
 Eg8
 +c8
+;offset=008000
 .08
 +E8
 +08
@@ -42061,7 +42260,9 @@ A081
 A081
 A081
 A081
-r 16 T081
+T081
+;offset=00C000
+r 15 T081
 A081
 T081
 A081
@@ -44859,7 +45060,127 @@ A
 r 12 T
 r 661 X
 Xg
-r 983039 A
+A
+;offset=010000
+r 16384 A
+;offset=014000
+r 16384 A
+;offset=018000
+r 16384 A
+;offset=01C000
+r 16384 A
+;offset=020000
+r 16384 A
+;offset=024000
+r 16384 A
+;offset=028000
+r 16384 A
+;offset=02C000
+r 16384 A
+;offset=030000
+r 16384 A
+;offset=034000
+r 16384 A
+;offset=038000
+r 16384 A
+;offset=03C000
+r 16384 A
+;offset=040000
+r 16384 A
+;offset=044000
+r 16384 A
+;offset=048000
+r 16384 A
+;offset=04C000
+r 16384 A
+;offset=050000
+r 16384 A
+;offset=054000
+r 16384 A
+;offset=058000
+r 16384 A
+;offset=05C000
+r 16384 A
+;offset=060000
+r 16384 A
+;offset=064000
+r 16384 A
+;offset=068000
+r 16384 A
+;offset=06C000
+r 16384 A
+;offset=070000
+r 16384 A
+;offset=074000
+r 16384 A
+;offset=078000
+r 16384 A
+;offset=07C000
+r 16384 A
+;offset=080000
+r 16384 A
+;offset=084000
+r 16384 A
+;offset=088000
+r 16384 A
+;offset=08C000
+r 16384 A
+;offset=090000
+r 16384 A
+;offset=094000
+r 16384 A
+;offset=098000
+r 16384 A
+;offset=09C000
+r 16384 A
+;offset=0A0000
+r 16384 A
+;offset=0A4000
+r 16384 A
+;offset=0A8000
+r 16384 A
+;offset=0AC000
+r 16384 A
+;offset=0B0000
+r 16384 A
+;offset=0B4000
+r 16384 A
+;offset=0B8000
+r 16384 A
+;offset=0BC000
+r 16384 A
+;offset=0C0000
+r 16384 A
+;offset=0C4000
+r 16384 A
+;offset=0C8000
+r 16384 A
+;offset=0CC000
+r 16384 A
+;offset=0D0000
+r 16384 A
+;offset=0D4000
+r 16384 A
+;offset=0D8000
+r 16384 A
+;offset=0DC000
+r 16384 A
+;offset=0E0000
+r 16384 A
+;offset=0E4000
+r 16384 A
+;offset=0E8000
+r 16384 A
+;offset=0EC000
+r 16384 A
+;offset=0F0000
+r 16384 A
+;offset=0F4000
+r 16384 A
+;offset=0F8000
+r 16384 A
+;offset=0FC000
+r 16382 A
 Ag
 </RomBytes>
     </Data>
