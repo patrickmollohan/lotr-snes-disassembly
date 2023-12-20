@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectXmlSerializer-Root xmlns:exs="https://extendedxmlserializer.github.io/v2" xmlns:ns1="clr-namespace:Diz.Core.model;assembly=Diz.Core" xmlns:ns2="clr-namespace:Diz.Core.model.snes;assembly=Diz.Core" xmlns:sys="https://extendedxmlserializer.github.io/system" xmlns:ns3="clr-namespace:IX.Observable;assembly=IX.Observable" xmlns:ns4="clr-namespace:Diz.Core.export;assembly=Diz.Core" SaveVersion="102" Watermark="DiztinGUIsh" Extra1="" Extra2="" xmlns="clr-namespace:Diz.Core.serialization.xml_serializer;assembly=Diz.Core">
-  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="44598">
+  <Project AttachedRomFilename="Y:\Workspace\SNES Disassembly\Game\J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).sfc" InternalRomGameName="THE LORD OF THE RINGS" InternalCheckSum="2666422545" CurrentViewOffset="44608">
     <LogWriterSettings Format="%label:2%%code:40%; [%pc%|%bytes%|%ia%] %comment%" DataPerLine="8" Unlabeled="ShowInPoints" Structure="OneBankPerFile" NewLine="true" OutputExtraWhitespace="true" GenerateFullLine="false" IncludeUnusedLabels="false" PrintLabelSpecificComments="false" RomSizeOverride="-1" FileOrFolderOutPath="src\" OutputToString="false" ErrorFilename="errors.txt" />
-    <ProjectSettings exs:member="">
+    <ProjectSettings exs:member="" BsnesUsageMapImportOnlyChangedUnmarked="true">
       <RomBytesOutputFormatSettings CompressGroupBlock="true" CompressUsingTable1="true" InsertCommentIntoOutputLinesEveryNBytes="16384" />
     </ProjectSettings>
     <Data RomMapMode="LoRom" RomSpeed="FastRom">
@@ -19831,7 +19831,7 @@ r 8 E08
 .08
 +E8
 .08
-;offset=004000
+;pos=004000
 +I8
 .08
 +I8
@@ -34013,7 +34013,7 @@ B08
 r 31 E08
 Eg8
 +c8
-;offset=008000
+;pos=008000
 .08
 +E8
 +08
@@ -42261,7 +42261,7 @@ A081
 A081
 A081
 T081
-;offset=00C000
+;pos=00C000
 r 15 T081
 A081
 T081
@@ -45061,125 +45061,125 @@ r 12 T
 r 661 X
 Xg
 A
-;offset=010000
+;pos=010000
 r 16384 A
-;offset=014000
+;pos=014000
 r 16384 A
-;offset=018000
+;pos=018000
 r 16384 A
-;offset=01C000
+;pos=01C000
 r 16384 A
-;offset=020000
+;pos=020000
 r 16384 A
-;offset=024000
+;pos=024000
 r 16384 A
-;offset=028000
+;pos=028000
 r 16384 A
-;offset=02C000
+;pos=02C000
 r 16384 A
-;offset=030000
+;pos=030000
 r 16384 A
-;offset=034000
+;pos=034000
 r 16384 A
-;offset=038000
+;pos=038000
 r 16384 A
-;offset=03C000
+;pos=03C000
 r 16384 A
-;offset=040000
+;pos=040000
 r 16384 A
-;offset=044000
+;pos=044000
 r 16384 A
-;offset=048000
+;pos=048000
 r 16384 A
-;offset=04C000
+;pos=04C000
 r 16384 A
-;offset=050000
+;pos=050000
 r 16384 A
-;offset=054000
+;pos=054000
 r 16384 A
-;offset=058000
+;pos=058000
 r 16384 A
-;offset=05C000
+;pos=05C000
 r 16384 A
-;offset=060000
+;pos=060000
 r 16384 A
-;offset=064000
+;pos=064000
 r 16384 A
-;offset=068000
+;pos=068000
 r 16384 A
-;offset=06C000
+;pos=06C000
 r 16384 A
-;offset=070000
+;pos=070000
 r 16384 A
-;offset=074000
+;pos=074000
 r 16384 A
-;offset=078000
+;pos=078000
 r 16384 A
-;offset=07C000
+;pos=07C000
 r 16384 A
-;offset=080000
+;pos=080000
 r 16384 A
-;offset=084000
+;pos=084000
 r 16384 A
-;offset=088000
+;pos=088000
 r 16384 A
-;offset=08C000
+;pos=08C000
 r 16384 A
-;offset=090000
+;pos=090000
 r 16384 A
-;offset=094000
+;pos=094000
 r 16384 A
-;offset=098000
+;pos=098000
 r 16384 A
-;offset=09C000
+;pos=09C000
 r 16384 A
-;offset=0A0000
+;pos=0A0000
 r 16384 A
-;offset=0A4000
+;pos=0A4000
 r 16384 A
-;offset=0A8000
+;pos=0A8000
 r 16384 A
-;offset=0AC000
+;pos=0AC000
 r 16384 A
-;offset=0B0000
+;pos=0B0000
 r 16384 A
-;offset=0B4000
+;pos=0B4000
 r 16384 A
-;offset=0B8000
+;pos=0B8000
 r 16384 A
-;offset=0BC000
+;pos=0BC000
 r 16384 A
-;offset=0C0000
+;pos=0C0000
 r 16384 A
-;offset=0C4000
+;pos=0C4000
 r 16384 A
-;offset=0C8000
+;pos=0C8000
 r 16384 A
-;offset=0CC000
+;pos=0CC000
 r 16384 A
-;offset=0D0000
+;pos=0D0000
 r 16384 A
-;offset=0D4000
+;pos=0D4000
 r 16384 A
-;offset=0D8000
+;pos=0D8000
 r 16384 A
-;offset=0DC000
+;pos=0DC000
 r 16384 A
-;offset=0E0000
+;pos=0E0000
 r 16384 A
-;offset=0E4000
+;pos=0E4000
 r 16384 A
-;offset=0E8000
+;pos=0E8000
 r 16384 A
-;offset=0EC000
+;pos=0EC000
 r 16384 A
-;offset=0F0000
+;pos=0F0000
 r 16384 A
-;offset=0F4000
+;pos=0F4000
 r 16384 A
-;offset=0F8000
+;pos=0F8000
 r 16384 A
-;offset=0FC000
+;pos=0FC000
 r 16382 A
 Ag
 </RomBytes>
